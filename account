@@ -1,0 +1,2 @@
+An object containing an address, balance, nonce, and optional storage and code. An account can be a contract account or an externally owned account (EOA).
+វត្ថុដែលមានអាសយដ្ឋាន សមតុល្យ nonce និងកន្លែងផ្ទុក និងលេខកូដស្រេចចិត្ត។ គណនីមួយអាចជាគណនីកិច្ចសន្យា ឬគណនីដែលគ្រប់គ្រងខាងក្រៅ (EOA)។
