@@ -1,0 +1,3 @@
+address
+Most generally, this represents an EOA or contract that can receive (destination address) or send (source address) transactions on the blockchain. More specifically, it is the rightmost 160 bits of a Keccak hash of an ECDSA public key.
+EOA ឬកិច្ចសន្យាដែលអាចទទួលបាន (អាសយដ្ឋានគោលដៅ) ឬផ្ញើ (អាសយដ្ឋានប្រភព) ប្រតិបត្តិការនៅលើ blockchain ។ ពិសេសជាងនេះទៅទៀត វាគឺជា 160 ប៊ីតខាងស្តាំនៃ Keccak hash នៃសោសាធារណៈ ECDSA ។
