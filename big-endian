@@ -1,0 +1,2 @@
+A positional number representation where the most significant digit is first in memory. The opposite of little-endian, where the least significant digit is first.
+តំណាងលេខទីតាំងដែលខ្ទង់សំខាន់បំផុតគឺទីមួយនៅក្នុងសតិ។ ផ្ទុយពី little-endian ដែលលេខសំខាន់តិចបំផុតគឺទីមួយ។
