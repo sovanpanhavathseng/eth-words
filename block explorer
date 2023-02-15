@@ -1,0 +1,2 @@
+An interface that allows a user to search for information from, and about, a blockchain. This includes retrieving individual transactions, activity associated with specific addresses and information about the network.
+ចំណុចប្រទាក់ដែលអនុញ្ញាតឱ្យអ្នកប្រើស្វែងរកព័ត៌មានពី blockchain ។ នេះរួមបញ្ចូលទាំងការទាញយកប្រតិបត្តិការបុគ្គល សកម្មភាពដែលភ្ជាប់ជាមួយអាសយដ្ឋានជាក់លាក់ និងព័ត៌មានអំពីបណ្តាញ។
