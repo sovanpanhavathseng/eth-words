@@ -1,0 +1,13 @@
+The states that a block can exist in. The possible states include:
+
+    proposed: the block was proposed by a validator
+    scheduled: validators are currently submitting data
+    missed/skipped: the proposer did not propose a block within the eligible time frame.
+    orphaned: the block was reorg'd out by the fork choice algorithm
+    
+    រដ្ឋដែលប្លុកអាចមាននៅក្នុង។ រដ្ឋដែលអាចមានរួមមាន:
+
+    បានស្នើឡើង៖ ប្លុកត្រូវបានស្នើឡើងដោយអ្នកផ្ទៀងផ្ទាត់
+    បានកំណត់ពេល៖ អ្នកផ្តល់សុពលភាពបច្ចុប្បន្នកំពុងបញ្ជូនទិន្នន័យ
+    ខកខាន/រំលង៖ អ្នកស្នើរសុំមិន​បាន​ស្នើ​ប្លុក​ក្នុង​រយៈពេល​ដែល​មាន​សិទ្ធិ។
+    កុមារកំព្រា៖ ប្លុកនេះត្រូវបានរៀបចំឡើងវិញដោយក្បួនដោះស្រាយជម្រើសសម
