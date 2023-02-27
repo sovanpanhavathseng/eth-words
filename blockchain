@@ -1,0 +1,2 @@
+A sequence of blocks, each linking to its predecessor all the way to the genesis block by referencing the hash of the previous block. The integrity of the blockchain is crypto-economically secured using a proof-of-stake-based consensus mechanism.
+បណ្តុំនៃបណ្តុំ ដែលនីមួយៗភ្ជាប់ទៅអ្នកកាន់តំណែងមុនរបស់វា រហូតទៅដល់ប្លុកហ្សែន ដោយយោងទៅលើសញ្ញានៃប្លុកមុន។ ភាពសុចរិតនៃ blockchain គឺត្រូវបានធានាដោយ crypto-economic ដោយប្រើប្រាស់យន្តការមូលមតិគ្នាផ្អែកលើភស្តុតាងនៃភាគហ៊ុន។
