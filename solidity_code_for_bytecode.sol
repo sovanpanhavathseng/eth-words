@@ -1,0 +1,26 @@
+pragma solidity ^0.8.0;
+
+contract SimpleContract {
+    uint256 public value;
+    
+    constructor(uint256 _value) {
+        value = _value;
+    }
+    
+    function setValue(uint256 _newValue) public {
+        value = _newValue;
+    }
+    
+    function getValue() public view returns (uint256) {
+        return value;
+    }
+    
+    function getBytecode() public view returns (bytes memory) {
+        bytes memory bytecode;
+        assembly {
+            bytecode := mload(0x40)
+            mstore(bytecode, 0x608060405234801561001057600080fd5b50610159806100206000396000f3fe6080604052600436106100495763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166307ea4c1f811461004e578063cfae321714610080575b600080fd5b34801561005a57600080fd5b5061008e6004803603602081101561007157600080fd5b81019080803590602001909291905050506100a9565b005b34801561008b57600080fd5b5061009461015d565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea26469706673582212205e07b205d698f7aa79c345de18ba6480ca77eaf9b7d35da28123b27a119a1fa964736f6c63430006070033
+        }
+        return bytecode;
+    }
+}
