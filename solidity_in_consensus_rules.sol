@@ -1,0 +1,7 @@
+Solidity is a programming language used for developing smart contracts on Ethereum, a blockchain-based decentralized platform. While Solidity is not directly related to consensus rules, it is used to implement the logic of smart contracts that interact with the Ethereum network and the consensus mechanism used by Ethereum, which is currently Proof of Work (PoW) but is expected to shift to Proof of Stake (PoS) in the future.
+
+Smart contracts written in Solidity are executed by nodes on the Ethereum network and are subject to the consensus rules established by the network. These rules ensure that all nodes agree on the state of the network and the execution of smart contracts. For example, a smart contract that executes a financial transaction must be validated by the Ethereum network before it is considered valid and added to the blockchain.
+
+Solidity includes built-in functionality for interacting with the Ethereum network and implementing consensus-related features, such as sending and receiving ether (Ethereum's native cryptocurrency) and verifying transactions. Solidity also includes support for implementing the ERC-20 token standard, which is widely used for creating custom tokens on the Ethereum network.
+
+In summary, while Solidity itself is not a consensus mechanism, it is an essential tool for implementing smart contracts that interact with the Ethereum network and the consensus rules established by the network.
