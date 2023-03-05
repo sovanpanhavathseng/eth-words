@@ -1,0 +1,7 @@
+Solidity is the programming language used to write smart contracts on the Ethereum blockchain. The Constantinople fork did not introduce any major changes to the Solidity programming language itself, but it did introduce several changes to the Ethereum Virtual Machine (EVM), which is the runtime environment for executing smart contracts written in Solidity.
+
+One of the changes introduced by the Constantinople fork was the addition of the new opcode, "CREATE2," which allows for more efficient deployment of smart contracts on the Ethereum network. This opcode is particularly useful for smart contracts that need to be created multiple times with the same code, as it allows for the contract to be created at a specific address without requiring the address to be pre-computed.
+
+Another change introduced by the Constantinople fork was the reduction in the cost of certain types of EVM operations, such as bitwise shifting and creating contracts. This reduction in gas costs made it cheaper to execute certain types of smart contracts on the Ethereum network, which made the network more efficient and accessible to developers.
+
+Overall, the changes introduced by the Constantinople fork improved the performance and efficiency of the Ethereum network, which in turn made it easier and cheaper to write and deploy smart contracts using Solidity.
