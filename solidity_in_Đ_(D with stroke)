@@ -1,0 +1,5 @@
+In the Solidity programming language, the letter "Đ" (D with stroke) is not a valid character in identifier names.
+
+Solidity follows the Unicode standard for identifier names, which specifies that an identifier name can only contain alphanumeric characters (a-z, A-Z, 0-9), underscores (_), and certain Unicode categories of letters that includes letters from many different languages, but not "Đ".
+
+Therefore, you cannot use "Đ" in Solidity identifier names, such as variable names, function names, or contract names. If you attempt to use "Đ" in an identifier name, Solidity will throw a syntax error.
