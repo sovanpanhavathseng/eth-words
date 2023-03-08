@@ -1,0 +1,7 @@
+Solidity is a programming language used to write smart contracts on the Ethereum blockchain. While Solidity does not directly use DAGs, it interacts with the Ethereum blockchain, which is itself a DAG.
+
+In Ethereum, each block in the blockchain is represented as a node in a directed acyclic graph (DAG), called the Ethereum World State. Each block contains a set of transactions that modify the world state, which is represented by a Merkle tree. The Merkle tree enables efficient and secure verification of the validity of the state changes.
+
+Solidity smart contracts are written in a high-level language, which is then compiled into bytecode that is executed on the Ethereum Virtual Machine (EVM). The EVM is responsible for executing the contract code and modifying the state of the Ethereum World State according to the contract's logic.
+
+In summary, while Solidity itself does not directly use DAGs, it interacts with the Ethereum blockchain, which is a DAG, through the execution of smart contracts on the Ethereum Virtual Machine.
