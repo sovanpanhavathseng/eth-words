@@ -1,0 +1,9 @@
+A digital signature is a mathematical technique used to verify the authenticity and integrity of a digital document or message. It is similar to a traditional signature, but instead of using ink on paper, it uses a mathematical algorithm to bind a person's identity to the document.
+
+Digital signatures are created using a public key infrastructure (PKI) system, which involves the use of a pair of keys: a private key and a public key. The private key is kept secret by the signer, while the public key is distributed widely to anyone who needs to verify the signature.
+
+When a digital signature is created, the signer applies a mathematical algorithm to the document using their private key, which generates a unique digital code that is attached to the document. This code, known as the signature, can be verified by anyone who has access to the signer's public key.
+
+To verify the digital signature, the recipient of the document uses the signer's public key to decrypt the signature and compare it to a new calculation of the same digital code from the document. If the two codes match, it proves that the document has not been altered since it was signed and that the signature was created by the person who possesses the private key.
+
+Digital signatures are used in a wide range of applications, such as electronic contracts, digital transactions, and secure email communication, to ensure the authenticity and integrity of digital documents and messages.
