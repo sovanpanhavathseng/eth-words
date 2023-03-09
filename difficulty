@@ -1,0 +1,5 @@
+In Solidity, the concept of difficulty refers to the measure of how hard it is to mine a new block in the blockchain. The difficulty level is adjusted automatically by the Ethereum network to maintain a constant block mining time of approximately 13-15 seconds.
+
+There is no specific Solidity code for difficulty, as it is a network-level variable that is managed by the Ethereum protocol. However, smart contracts can interact with the difficulty variable by accessing the block.difficulty property, which returns the current difficulty level.
+
+Here's an example Solidity code that uses the block.difficulty property:
