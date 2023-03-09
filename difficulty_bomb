@@ -1,0 +1,7 @@
+The "difficulty bomb" is a term used in the Ethereum blockchain network to describe a mechanism that was introduced to gradually increase the difficulty level of mining new blocks. The purpose of this mechanism was to incentivize Ethereum developers to transition the network from the proof-of-work (PoW) consensus algorithm to the proof-of-stake (PoS) consensus algorithm.
+
+The difficulty bomb was designed to make it increasingly difficult for miners to solve cryptographic puzzles and create new blocks. This was done by gradually increasing the difficulty level of the puzzles that miners had to solve, making it more time-consuming and resource-intensive to create new blocks. The goal was to encourage the Ethereum community to transition to PoS by making PoW mining less profitable and less attractive.
+
+The difficulty bomb was first introduced in 2015 as a part of Ethereum's "Ice Age" upgrade, and it has been delayed several times since then to give Ethereum developers more time to complete the transition to PoS. However, the delay has caused some concerns about the sustainability of the Ethereum network, as the increasing difficulty of mining new blocks could lead to longer confirmation times and higher transaction fees.
+
+As of my knowledge cutoff in 2021, the Ethereum network had delayed the difficulty bomb until the next network upgrade, known as the London hard fork, which was released in August 2021. At the time of writing, I do not have information about any changes to this plan or whether the difficulty bomb has been further delayed or removed.
