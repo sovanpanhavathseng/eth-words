@@ -1,0 +1,12 @@
+An Ethereum Improvement Proposal (EIP) is a document that describes a new feature or change proposed for the Ethereum blockchain. EIPs are intended to be a collaborative and transparent process for proposing, designing, and implementing changes to the Ethereum protocol.
+
+Anyone can propose an EIP, and the process is open to anyone who wants to participate. The EIP process is similar to the Request for Comments (RFC) process used by the Internet Engineering Task Force (IETF) to standardize internet protocols.
+
+There are several types of EIPs, including:
+
+Standard Track EIPs: These propose changes to the Ethereum protocol itself, such as new opcodes, changes to the mining algorithm, or improvements to the Ethereum Virtual Machine (EVM).
+Informational EIPs: These provide information to the Ethereum community, such as tutorials, best practices, or documentation.
+Meta EIPs: These propose changes to the EIP process itself, such as changes to the submission process or the creation of new EIP categories.
+Once an EIP is submitted, it goes through a review process, during which community members can provide feedback and suggestions. The EIP author can then revise the proposal based on the feedback received, and if the proposal is accepted, it becomes part of the Ethereum protocol.
+
+EIPs play an important role in the evolution of the Ethereum blockchain, as they allow for the community to propose and implement new features and improvements. Many of the features and upgrades that have been added to Ethereum, such as ERC-20 tokens and the recent EIP-1559 upgrade, have been proposed and implemented through the EIP process.
