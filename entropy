@@ -1,0 +1,9 @@
+In information theory, entropy is a measure of the amount of uncertainty or randomness in a system or set of data. It is typically expressed in bits or other units of information.
+
+In the context of cryptography, entropy is used to measure the strength of cryptographic keys or random number generators. A high-entropy key or random number is one that is generated with sufficient randomness and unpredictability to make it difficult for an attacker to guess or predict.
+
+Entropy can be generated from a variety of sources, such as user input, environmental noise, or hardware-based random number generators. For example, a user may be asked to move their mouse randomly to generate entropy for a cryptographic key.
+
+It is important to ensure that the source of entropy is truly random and not predictable or biased in any way. Otherwise, an attacker may be able to guess the key or predict the sequence of random numbers, compromising the security of the system.
+
+The concept of entropy is also used in the field of thermodynamics, where it represents the amount of disorder or randomness in a physical system.
