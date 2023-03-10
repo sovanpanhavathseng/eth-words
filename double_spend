@@ -1,0 +1,7 @@
+Double spending is a potential problem in digital currencies like Bitcoin, where a user tries to spend the same money twice. This is possible because digital currencies are essentially digital files that can be duplicated, unlike physical currencies.
+
+To prevent double spending, Bitcoin uses a decentralized public ledger called the blockchain, which records all transactions and prevents users from spending the same bitcoins twice. Each transaction is verified by the network of Bitcoin nodes, which ensures that the user has the necessary funds to make the transaction and that the transaction is legitimate. Once a transaction is verified, it is added to the blockchain and cannot be altered or reversed.
+
+In order to prevent double spending, Bitcoin also uses a system of transaction confirmations. After a transaction is broadcasted to the network, it must be confirmed by several nodes before it is considered valid. The more confirmations a transaction has, the less likely it is to be a double spend.
+
+Overall, while double spending is a potential concern in digital currencies, Bitcoin's blockchain and confirmation system make it highly unlikely to occur in practice.
