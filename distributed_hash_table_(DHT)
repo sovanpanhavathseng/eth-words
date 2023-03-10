@@ -1,0 +1,7 @@
+A Distributed Hash Table (DHT) is a decentralized distributed system that enables nodes to store and retrieve key-value pairs in a peer-to-peer (P2P) network.
+
+In a DHT system, each node has a unique identifier, typically a cryptographic hash of its IP address. The keys of the stored values are also hashed, and the resulting hashes are used to determine which node in the network will be responsible for storing and retrieving each key-value pair.
+
+To store a key-value pair in a DHT, a node hashes the key and then uses the resulting hash to locate the node responsible for that key. The node then stores the key-value pair in its local storage. To retrieve a value, a node hashes the key and uses the resulting hash to locate the node responsible for that key. The node then retrieves the value from the responsible node's local storage.
+
+DHTs are used in a variety of applications, including distributed file sharing, content distribution networks, and decentralized cryptocurrencies like Bitcoin and Ethereum. DHTs provide scalability and fault-tolerance, making them a useful tool for building large-scale distributed systems.
