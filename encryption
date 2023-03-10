@@ -1,0 +1,7 @@
+Encryption is the process of converting plain text or data into an unreadable form, known as ciphertext, using an algorithm and a secret key. The purpose of encryption is to ensure the confidentiality and integrity of the information being transmitted or stored.
+
+There are different types of encryption algorithms, such as symmetric encryption and asymmetric encryption. In symmetric encryption, the same key is used to both encrypt and decrypt the information. In asymmetric encryption, a public key is used for encryption, while a private key is used for decryption.
+
+Encryption is used in various applications, such as secure communication over the internet, data storage, and financial transactions. It is also used to protect sensitive information from unauthorized access or theft.
+
+The effectiveness of encryption depends on the strength of the encryption algorithm and the secrecy of the key used for encryption. If the encryption algorithm or key is compromised, the information can be decrypted and become vulnerable to attacks.
