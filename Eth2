@@ -1,0 +1,7 @@
+Eth2, also known as Ethereum 2.0 or Serenity, is the next major version of the Ethereum blockchain. It is designed to address some of the scalability, security, and sustainability challenges of the current Ethereum network.
+
+One of the main features of Eth2 is the transition from a proof-of-work (PoW) consensus mechanism to a proof-of-stake (PoS) mechanism. This means that instead of relying on miners to validate transactions and create new blocks, validators will be chosen to propose new blocks and validate transactions based on the amount of ether they hold and commit as stake.
+
+Eth2 also introduces shard chains, which are additional chains that can run in parallel to the main Ethereum chain, allowing for more transactions to be processed in a shorter period of time. Additionally, Eth2 includes other enhancements such as a new virtual machine, improved smart contract functionality, and better privacy features.
+
+The Eth2 upgrade is being rolled out in several phases, with the first phase, called the Beacon Chain, having launched in December 2020. The subsequent phases will introduce more features and eventually lead to a complete transition to the new network.
