@@ -1,0 +1,9 @@
+The Ethereum Virtual Machine (EVM) is the runtime environment for smart contracts in the Ethereum network. The EVM is a virtual machine that executes code written in the Ethereum Virtual Machine bytecode (EVM bytecode), which is a low-level language that is compiled from high-level programming languages such as Solidity.
+
+The EVM is responsible for executing smart contract code and maintaining the state of the Ethereum network. It is implemented as a decentralized, peer-to-peer network of nodes that run on a variety of different hardware and software platforms.
+
+Each Ethereum node runs a local copy of the EVM, which executes transactions and smart contract code. When a user submits a transaction to the network, the transaction is first validated by the nodes, then executed by the EVM. The EVM performs a number of operations, such as updating the state of the blockchain and transferring ether between accounts.
+
+One of the key features of the EVM is its ability to run arbitrary code in a sandboxed environment. This means that smart contract code can be executed on any node in the network, without the need for a trusted third party. The EVM also ensures that each transaction and smart contract is executed in a deterministic way, meaning that the same inputs will always produce the same outputs.
+
+Overall, the Ethereum Virtual Machine is a critical component of the Ethereum network, providing a secure and reliable environment for the execution of smart contracts and the transfer of ether.
