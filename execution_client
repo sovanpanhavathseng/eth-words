@@ -1,0 +1,7 @@
+It's not entirely clear what you mean by "execution client." However, I'll provide a couple of interpretations and explanations:
+
+In the context of finance and trading, an execution client is a type of client that works with a broker or trading firm to execute trades. This could refer to an individual investor who hires a broker to place trades on their behalf, or it could refer to an institutional client (such as a hedge fund or asset manager) that works with a trading desk to execute large trades.
+
+In software development, an execution client could refer to a component of a distributed system that receives requests and executes them on behalf of a user or application. For example, in a client-server architecture, the client might send a request to the server, which then forwards the request to an execution client that runs the necessary code and returns the result to the server.
+
+If you could provide more context or information about the specific context in which you encountered the term "execution client," I could provide a more precise answer.
