@@ -1,0 +1,9 @@
+In Solidity, an event is a way for a contract to communicate that something has happened on the blockchain to the external world. Events are used to notify external actors, such as user interfaces or other contracts, of changes that have occurred in the state of a contract.
+
+Events are declared using the event keyword, followed by the name of the event and any parameters that are associated with it. Here is an example:
+
+In this example, the NewPerson event is declared with two parameters: a string called name and an unsigned integer called age. The createPerson function is defined with some logic to create a new person and then it emits the NewPerson event with the newly created person's name and age.
+
+When the NewPerson event is emitted, it creates a log entry in the transaction receipt that is stored on the blockchain. External actors can listen for these events and react accordingly. For example, a user interface could listen for the NewPerson event and update the display to show the newly created person's information.
+
+Events are an important tool for creating interactive and responsive decentralized applications. They allow contracts to communicate with the outside world in a way that is transparent, secure, and decentralized.
