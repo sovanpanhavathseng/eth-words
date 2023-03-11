@@ -1,0 +1,11 @@
+The Ethereum Virtual Machine (EVM) has its own assembly language, which is used to write low-level EVM bytecode directly. EVM assembly is a stack-based language, which means that all data is pushed onto a stack before it is processed by the EVM.
+
+Here's an example of EVM assembly code that implements a simple smart contract that stores a value:
+
+This code defines a contract with a single storage variable called value. The function section defines the main function for the contract, which takes a single input value from the transaction data and stores it in the contract's storage.
+
+The calldataload 0 instruction loads the first 32 bytes of the transaction data, which is assumed to be the value to be stored. The sstore value instruction stores the loaded value in the contract's storage.
+
+Finally, the 0 RETURN instruction returns a success status to the caller.
+
+EVM assembly code can be difficult to write and read, and is generally not used directly by most Solidity developers. However, understanding EVM assembly can be useful for optimizing smart contract performance and for analyzing low-level details of the EVM bytecode.
