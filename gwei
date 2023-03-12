@@ -1,0 +1,15 @@
+Gwei is a denomination of Ether (ETH), the cryptocurrency used on the Ethereum blockchain. It is the smallest unit of Ether and is equivalent to 0.000000001 ETH (or 10^-9 ETH).
+
+The term "Gwei" is short for "Gigawei", which represents one billion (10^9) wei. Wei is the smallest unit of Ether and is used to measure gas prices and transaction fees on the Ethereum network.
+
+Gas is a unit of measurement for the amount of computational work required to execute a transaction or smart contract on the Ethereum network. The more complex a transaction or smart contract, the more gas it will require to execute.
+
+When a user initiates a transaction or deploys a smart contract on the Ethereum network, they need to specify the amount of gas they are willing to pay for the transaction to be processed by the network. Gas is priced in Gwei, and the higher the Gwei price, the faster the transaction will be processed by the network.
+
+For example, if a user wants to send 1 ETH to another user and is willing to pay 10 Gwei per gas, and the transaction requires 21,000 gas to execute, the total transaction fee will be:
+
+Transaction fee = gas price * gas limit
+Transaction fee = 10 Gwei * 21,000
+Transaction fee = 0.00021 ETH
+
+So, the total amount the user will send to the recipient will be 0.99979 ETH (1 ETH - 0.00021 ETH transaction fee).
