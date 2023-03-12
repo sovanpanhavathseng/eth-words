@@ -1,0 +1,7 @@
+Finality refers to the state in which a block in a blockchain network is considered to be permanently confirmed and cannot be reversed. In other words, once a block has been finalized, it is considered to be part of the immutable ledger of the blockchain and cannot be changed or tampered with.
+
+The concept of finality is important in blockchain networks because it provides a high level of security and ensures that the transactions recorded in the blockchain are trustworthy and cannot be altered by malicious actors. Different blockchain networks use different methods to achieve finality, such as Proof of Work (PoW), Proof of Stake (PoS), or other consensus algorithms.
+
+For example, in a PoW-based blockchain network like Bitcoin, finality is achieved when a block is added to the longest chain of blocks, as it requires a significant amount of computational power to create an alternative chain that is longer than the current chain. In a PoS-based blockchain network like Ethereum 2.0, finality is achieved through a process called "finality voting", in which a supermajority of validators agree on the state of the network.
+
+Overall, finality is a key characteristic of blockchain networks that provides users with a high degree of confidence in the integrity of the data stored on the blockchain.
