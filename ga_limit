@@ -1,0 +1,11 @@
+In the Ethereum network, a gas limit is the maximum amount of gas that a user is willing to use for a transaction. The gas limit is specified by the user who initiates the transaction and represents the maximum amount of computational work that they are willing to pay for.
+
+Each operation in a smart contract requires a certain amount of gas to execute, and the total cost of a transaction is calculated by multiplying the gas price (in wei, the smallest unit of ether) by the amount of gas used. If a transaction reaches its gas limit before completing, any changes made up to that point will be reverted and the transaction will fail.
+
+The gas limit is an important parameter to consider when initiating transactions on the Ethereum network, as it determines the maximum amount of computational work that can be done within a single transaction. If the gas limit is set too low, the transaction may not be able to complete and any changes made up to that point will be lost. If the gas limit is set too high, the user may end up paying more gas fees than necessary.
+
+Here's an example of how to specify a gas limit in a Solidity smart contract:
+
+In this contract, calling the addNumbers function requires a certain amount of gas. When a user initiates a transaction to call the addNumbers function, they must specify a gas price and limit. The gas price represents the amount of ether they are willing to pay for each unit of gas used, and the gas limit represents the maximum amount of gas they are willing to use for the transaction.
+
+For example, a user could initiate a transaction with a gas limit of 100000 and a gas price of 10 gwei (0.00000001 ETH) per unit of gas. This would allow them to execute the addNumbers function up to a maximum of 100000 gas units, and they would be willing to pay a maximum of 0.001 ETH in gas fees for the transaction.
