@@ -1,0 +1,11 @@
+network splits into two or more different versions of the blockchain. This can happen for several reasons, such as a disagreement among network participants about the rules of the network or a software bug that causes unintended consequences.
+
+There are two main types of forks in blockchain networks:
+
+Soft fork: A soft fork occurs when a change is made to the protocol that is backward compatible with older versions of the software. This means that nodes that have not upgraded to the latest version of the software can still validate transactions on the network. Soft forks typically result in a temporary fork in the blockchain that is eventually resolved when the majority of nodes upgrade to the new software.
+
+Hard fork: A hard fork occurs when a change is made to the protocol that is not backward compatible with older versions of the software. This means that nodes that have not upgraded to the latest version of the software will not be able to validate transactions on the network. Hard forks can result in a permanent split in the blockchain, with some nodes following the old version of the blockchain and others following the new version.
+
+Both soft forks and hard forks can have significant impacts on the blockchain network and its users. Hard forks in particular can be contentious and result in the creation of a new cryptocurrency, as was the case with the Bitcoin Cash hard fork in 2017.
+
+Overall, forks are an important aspect of blockchain technology and can have significant implications for the security, stability, and value of a blockchain network.
