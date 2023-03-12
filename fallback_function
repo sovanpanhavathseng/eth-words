@@ -1,0 +1,7 @@
+In Solidity programming language, a fallback function is a function that is executed when a contract receives a transaction with no data or a function that does not match any of the functions defined in the contract.
+
+The fallback function is defined using the fallback keyword and has no name or arguments. It is typically used to handle incoming ether transfers or to revert the transaction if it does not match any of the defined functions.
+
+Here is an example of a simple fallback function:
+
+In the above example, the fallback function is defined as fallback () external payable, indicating that it can receive ether and can be called externally. When a transaction is sent to the contract with no data or an undefined function, the fallback function will be executed. If the transaction includes ether, the fallback function can handle it.
