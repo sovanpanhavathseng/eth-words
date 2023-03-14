@@ -1,0 +1,5 @@
+A hard fork is a fundamental change in the protocol of a blockchain network that renders previous versions incompatible with the new one. In simpler terms, it is like creating a new branch of the blockchain, where the previous transactions and blocks are no longer valid.
+
+In a hard fork, the new protocol requires all nodes or participants in the network to upgrade their software to the latest version to continue participating in the network. If they fail to upgrade, they risk being left behind on the old version, which can result in a loss of access to the network or even the loss of their digital assets.
+
+Hard forks can be caused by various reasons such as fixing critical bugs, improving performance, introducing new features, or implementing controversial changes that are not universally accepted by the network participants. The most well-known example of a hard fork is the split of the Bitcoin network in 2017, which resulted in the creation of Bitcoin Cash.
