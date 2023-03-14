@@ -1,0 +1,10 @@
+Keccak-256 is a cryptographic hash function that produces a 256-bit hash value, often used in blockchain technologies like Ethereum. It is a member of the SHA-3 family of hash functions, selected as the winner of the NIST hash function competition in 2012.
+
+In Ethereum, Keccak-256 is used to compute the hash of many types of data, including:
+
+Smart contract bytecode: Before deploying a smart contract on the Ethereum network, its bytecode is hashed using Keccak-256 to generate the contract's address.
+Transaction data: When a user sends a transaction on the Ethereum network, the transaction data (including the recipient address, amount, and any additional data) is hashed using Keccak-256 to generate the transaction's ID.
+Merkle tree roots: Ethereum uses a modified version of the Merkle tree data structure to efficiently store and verify large amounts of data. Each node in the Merkle tree is a hash of its child nodes, computed using Keccak-256.
+Here's an example Solidity function that computes the Keccak-256 hash of a string:
+
+In this example, the hashString function takes a string as an argument, and uses the keccak256 function to compute its hash value. The bytes function is used to convert the string to a byte array before hashing. The function returns a 32-byte hash value (of type bytes32).
