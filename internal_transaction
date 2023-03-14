@@ -3,3 +3,9 @@ An internal transaction is a type of transaction that occurs within a smart cont
 When a contract is executed, it can trigger a series of internal transactions that move Ether or other tokens between different addresses within the contract. These internal transactions can also update the state of the contract, changing the values of its variables or triggering other functions.
 
 For example, consider the following Solidity contract:
+
+This contract has a balance variable that stores the total amount of Ether deposited into the contract. The deposit function allows users to deposit Ether into the contract, and the withdraw function allows users to withdraw Ether from the contract, provided they have sufficient funds.
+
+When a user calls the deposit function, an internal transaction is triggered that adds the specified amount to the balance variable. Similarly, when a user calls the withdraw function, an internal transaction is triggered that subtracts the specified amount from the balance variable.
+
+Internal transactions are an important feature of Ethereum smart contracts, as they allow for complex interactions between different parts of a contract's code. They can be used to implement complex business logic, automate complex workflows, and create sophisticated decentralized applications.
