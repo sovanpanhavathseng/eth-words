@@ -1,0 +1,7 @@
+The "Ice Age" is a term used to describe a difficulty adjustment algorithm in the Ethereum blockchain. In Ethereum, the difficulty of mining new blocks is adjusted dynamically based on the amount of computational power in the network. This ensures that the block time remains relatively constant, at around 15 seconds per block.
+
+However, to prevent miners from continuing to mine on the old chain after a hard fork, the Ethereum protocol includes a mechanism called the "Ice Age". The Ice Age is a deliberate increase in the difficulty of mining new blocks, which is designed to make it more difficult and less profitable for miners to continue mining on the old chain.
+
+When the Ice Age is triggered, the difficulty of mining new blocks increases exponentially over time, which means that it becomes increasingly difficult to mine new blocks. This is intended to encourage miners to switch to the new chain, which has a lower difficulty level and is therefore more profitable to mine.
+
+The Ice Age was first introduced in Ethereum in 2016 as part of the Byzantium hard fork, and has been activated several times since then as new hard forks have been implemented. While the Ice Age is intended as a temporary measure to encourage miners to switch to the new chain, it can also have the effect of slowing down the Ethereum network and increasing transaction times, particularly if the hard fork is contentious and results in a split in the network.
