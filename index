@@ -1,0 +1,7 @@
+An index is a tool used to track the performance of a specific group of assets, such as stocks, cryptocurrencies, or commodities. It represents a benchmark or reference point for investors to evaluate the performance of their investments.
+
+In the context of cryptocurrencies, indexes are used to track the performance of various digital assets, such as Bitcoin, Ethereum, and other cryptocurrencies. Crypto indexes are designed to provide investors with a broad overview of the crypto market, including market trends, volatility, and liquidity.
+
+There are several popular cryptocurrency indexes, such as the Crypto20, which tracks the performance of the top 20 cryptocurrencies by market capitalization, and the Bitwise 10 Private Index Fund, which tracks the performance of the top 10 cryptocurrencies.
+
+Solidity, on the other hand, is a programming language used to write smart contracts on the Ethereum blockchain. While Solidity can be used to create smart contracts that interact with cryptocurrency indexes or track the performance of digital assets, it is not used to create or manipulate indexes themselves. Instead, cryptocurrency indexes are typically created and managed by third-party index providers or financial institutions.
