@@ -1,0 +1,7 @@
+A key derivation function (KDF) is a cryptographic algorithm used to derive one or more secret keys from a single master key or other secret value. KDFs are commonly used in a variety of applications, such as password-based encryption, key management, and secure messaging protocols.
+
+KDFs are designed to be computationally intensive and irreversible, meaning that it should be difficult to derive the original master key from the derived keys. A properly designed KDF should also ensure that each derived key is unique and independent of any other derived key.
+
+One commonly used KDF is the PBKDF2 (Password-Based Key Derivation Function 2), which is widely used in applications that involve password-based encryption. The PBKDF2 algorithm takes a password and a salt value as input and applies a series of hash functions and iterations to derive one or more secret keys. The number of iterations and the length of the derived key can be customized based on the specific application requirements.
+
+Here is an example of PBKDF2 implementation in Python:
