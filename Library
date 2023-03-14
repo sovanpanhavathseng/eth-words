@@ -1,0 +1,13 @@
+In Solidity, a library is a collection of reusable functions that can be called by other contracts or by external applications. A library is essentially a contract that is deployed once and can be reused by multiple contracts without having to deploy the same code again.
+
+Here is an example of a simple library in Solidity:
+
+In this example, we define a library called Math, which contains two functions add and sub. Both functions take two uint256 parameters and return a uint256 result. The internal keyword means that these functions can only be called from within the same contract or library, and not from external applications.
+
+The add function adds two numbers together and checks for overflow by using the require statement. The sub function subtracts one number from another and checks for underflow by using the require statement.
+
+To use the Math library in another contract, we need to import it using the import statement:
+
+In this example, we import the Math library from another file (Math.sol) and use the add function to calculate the sum of two numbers.
+
+Libraries are a powerful feature of Solidity that allow developers to write reusable and efficient code. They are particularly useful when multiple contracts need to use the same functionality, as they can reduce deployment costs and code duplication.
