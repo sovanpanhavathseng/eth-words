@@ -1,0 +1,15 @@
+Layer 2 refers to a class of solutions that aim to increase the scalability of blockchain networks by moving some of the processing off the main chain to a secondary layer. The main idea behind Layer 2 solutions is to reduce the amount of data that needs to be processed on the main chain, thereby increasing the transaction throughput and reducing the fees.
+
+There are several different types of Layer 2 solutions, each with its own strengths and weaknesses:
+
+State channels: State channels are off-chain solutions that allow two or more parties to conduct multiple transactions without having to broadcast them to the main chain. The final state of the channel is then recorded on the main chain as a single transaction. State channels are well suited for use cases that involve frequent interactions between two parties, such as micropayments.
+
+Plasma: Plasma is a Layer 2 solution that uses a hierarchical structure of side chains to process transactions. The main chain acts as a root chain, and each side chain is responsible for processing a subset of the transactions. The side chains periodically submit their state to the main chain for validation.
+
+Rollups: Rollups are a type of Layer 2 solution that batch multiple transactions into a single transaction that is processed on the main chain. There are two types of rollups: optimistic and zk-rollups. Optimistic rollups assume that most transactions will be valid, and only check for invalid transactions if a dispute is raised. Zk-rollups use zero-knowledge proofs to verify the validity of each transaction, making them more secure but also more computationally expensive.
+
+Sidechains: Sidechains are independent blockchains that are interoperable with the main chain. Transactions can be moved between the main chain and the side chain, allowing for faster and cheaper processing of transactions.
+
+Here's an example Solidity contract that interacts with a Layer 2 solution:
+
+In this example, the MyContract contract interacts with a State Channel contract via the IStateChannel interface. The deposit, withdraw, and updateState functions are used to interact with the State Channel contract, which is responsible for processing the transactions off-chain. The MyContract contract can then use the final state of the channel to perform further on-chain processing, if necessary.
