@@ -5,3 +5,5 @@ KDFs are designed to be computationally intensive and irreversible, meaning that
 One commonly used KDF is the PBKDF2 (Password-Based Key Derivation Function 2), which is widely used in applications that involve password-based encryption. The PBKDF2 algorithm takes a password and a salt value as input and applies a series of hash functions and iterations to derive one or more secret keys. The number of iterations and the length of the derived key can be customized based on the specific application requirements.
 
 Here is an example of PBKDF2 implementation in Python:
+
+In this example, the pbkdf2 function takes a password, a salt value, the number of iterations, and the desired key length as input parameters. The function then applies the PBKDF2 algorithm by using the HMAC-SHA256 hash function to generate intermediate keys for each iteration. The final derived key is then constructed by concatenating all of the intermediate keys up to the desired key length.
