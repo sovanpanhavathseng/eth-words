@@ -1,0 +1,11 @@
+A hash is a fixed-length sequence of characters or bytes that is generated using a hashing algorithm. The purpose of a hash is to represent a large amount of data, such as a file or a message, in a compact and unique way. Hashing algorithms are designed to be one-way functions, meaning that it is virtually impossible to generate the original data from the hash.
+
+Hashing is widely used in computer science and cryptography for various purposes, such as digital signatures, data verification, and password storage. For example, in password storage, a user's password is hashed and the hash is stored in a database. When the user attempts to log in, their password is hashed again and compared to the stored hash to determine if it is correct.
+
+Hash functions have several important properties that make them useful in many applications. These properties include:
+
+Determinism: The same input data will always generate the same hash output.
+Uniqueness: It is extremely difficult to generate two different inputs that produce the same hash output.
+Irreversibility: It is computationally infeasible to generate the original input data from the hash output.
+Fixed-length output: The output of a hash function is always the same length, regardless of the input data size.
+Common hashing algorithms include SHA-256, SHA-3, and MD5.
