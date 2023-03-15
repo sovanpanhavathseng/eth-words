@@ -1,0 +1,7 @@
+Mainnet refers to the main Ethereum network, which is the primary blockchain network used to execute smart contracts and process transactions using Ether (ETH), the native cryptocurrency of the Ethereum platform.
+
+The Ethereum Mainnet is the live, operational version of the Ethereum network that is open to the public and used for real-world applications. It is the network that most users and developers interact with when creating and deploying decentralized applications (dApps) and smart contracts.
+
+Transactions and smart contracts deployed on the Ethereum Mainnet use real Ether (ETH), and the network operates using the proof-of-work consensus algorithm. However, Ethereum is currently in the process of transitioning to a proof-of-stake consensus algorithm through Ethereum 2.0, which will gradually replace the existing proof-of-work system.
+
+Developers can deploy their Solidity smart contracts on the Ethereum Mainnet by compiling their code into bytecode and submitting it to the network using a tool like Remix or Truffle. Once deployed, the contract can be interacted with by other users and dApps on the Ethereum network, and the contract's code and state will be stored permanently on the blockchain.
