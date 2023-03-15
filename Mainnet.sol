@@ -11,3 +11,5 @@ contract MyContract {
     myVariable = newValue;
   }
 }
+
+gasPrice: web3.utils.toWei('10', 'gwei')
