@@ -1,0 +1,5 @@
+In Ethereum, a "message" refers to a piece of data that is sent from one Ethereum account to another. Messages can be sent as part of a transaction on the Ethereum network, and can include information such as a recipient address, an amount of Ether or other tokens to transfer, and arbitrary data.
+
+Messages can be sent between accounts on the Ethereum network using the send, transfer, or call functions in Solidity or other programming languages used to write smart contracts. When a message is sent, it is processed by the Ethereum Virtual Machine (EVM) and executed by the recipient account's contract code.
+
+Messages can be used for a variety of purposes in Ethereum, such as transferring funds between accounts, triggering contract functions, or sending and receiving data between smart contracts. They are a core component of the Ethereum network and enable a wide range of decentralized applications to be built on top of the blockchain.
