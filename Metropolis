@@ -1,0 +1,13 @@
+Metropolis is the codename for the third major upgrade to the Ethereum network, which was released in several stages in 2017 and 2018. It is also known as Ethereum 3.0 or Ethereum Serenity.
+
+The Metropolis upgrade introduced several new features and improvements to the Ethereum network, including:
+
+Byzantium hard fork: This was the first stage of the Metropolis upgrade, which introduced new features such as the ability to create "smart contracts" with more complex functions, improvements to the security of the network, and changes to the way gas prices are calculated.
+
+EIP-1559: This was a proposal to change the way transaction fees are calculated on the Ethereum network, which was ultimately implemented as part of the London hard fork in 2021. EIP-1559 aims to reduce transaction fees and make the fee market more efficient by burning a portion of the fees, rather than just distributing them to miners.
+
+ZK-SNARKs: Metropolis also introduced support for zero-knowledge proofs, which allow for increased privacy and scalability on the Ethereum network.
+
+Constantinople hard fork: This was the second stage of the Metropolis upgrade, which introduced several new features such as cheaper gas prices for certain types of transactions, the ability to store more data in smart contracts, and improvements to the network's overall performance.
+
+Overall, the Metropolis upgrade played an important role in the evolution of the Ethereum network, introducing key improvements and laying the groundwork for future upgrades and innovations.
