@@ -1,0 +1,11 @@
+In Ethereum, a message call is a way for one smart contract to invoke a function in another smart contract.
+
+When a message call is initiated from one contract to another, a new execution environment is created for the called contract, with its own storage and memory. The called contract is then executed in this new environment and can modify its own state variables as well as interact with other contracts or external accounts.
+
+A message call can be performed using the call, delegatecall, or staticcall functions in Solidity.
+
+Here's an example of how to use the call function to perform a message call in Solidity:
+
+In this example, MyContract is the contract being called and MyCaller is the contract initiating the message call. The callSetValue function initiates a message call to MyContract's setValue function with the newValue argument. The callGetValue function initiates a message call to MyContract's getValue function and decodes the result using the abi.decode function.
+
+Note that message calls can be expensive in terms of gas costs and should be used with caution. It's important to properly handle errors and check the return values of message calls to ensure that they execute as intended.
