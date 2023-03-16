@@ -1,0 +1,7 @@
+In computing, a nonce is a random or pseudo-random number that is used only once in a cryptographic communication. The term "nonce" stands for "number used once". Nonces are used in many cryptographic protocols to ensure the security and integrity of the communication.
+
+One common use of a nonce is in message authentication codes (MACs), which are used to verify the authenticity and integrity of a message. A MAC is created by encrypting the message using a secret key and a nonce. The recipient can then verify the MAC by decrypting the message using the same key and nonce.
+
+Another common use of a nonce is in digital signatures, which are used to prove the authenticity and integrity of a document or message. A digital signature is created by encrypting the document or message using a private key and a nonce. The recipient can then verify the signature by decrypting the message using the corresponding public key and nonce.
+
+Nonces are also used in many other cryptographic protocols, such as key exchange, encryption, and decryption, to ensure that the communication is secure and cannot be intercepted or tampered with by a third party.
