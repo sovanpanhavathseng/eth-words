@@ -1,0 +1,7 @@
+Proof-of-stake (PoS) is a consensus mechanism used in blockchain networks to validate transactions and create new blocks. Unlike proof-of-work (PoW), which requires miners to perform complex computations to solve cryptographic puzzles in order to validate transactions and create new blocks, PoS relies on validators who hold a certain amount of cryptocurrency as a stake in the network.
+
+In a PoS system, validators are chosen to create new blocks and validate transactions based on their stake in the network. The higher the stake a validator holds, the more likely they are to be selected to create a new block. Validators are also incentivized to act honestly and follow the rules of the network, as any malicious behavior can result in them losing their stake.
+
+PoS is often seen as a more energy-efficient alternative to PoW, as it does not require the same level of computational resources to operate. It also reduces the risk of centralization, as it makes it more difficult for a single entity to gain control of the network.
+
+Some popular blockchain platforms that use PoS include Ethereum 2.0, Cardano, and Polkadot.
