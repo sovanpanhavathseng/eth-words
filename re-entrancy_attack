@@ -1,0 +1,10 @@
+A re-entrancy attack is a type of vulnerability that can occur in smart contracts running on blockchain platforms, such as Ethereum. It happens when a malicious contract or user is able to repeatedly call a vulnerable contract's function before the original call has finished executing.
+
+Here's how it works:
+
+The attacker sends a transaction to a vulnerable smart contract, calling a function that allows them to withdraw some funds.
+Before the function completes, the attacker immediately calls the same function again, causing the function to execute again before the first call has finished.
+The attacker is then able to repeatedly call the function, withdrawing more funds each time, until the contract runs out of funds.
+This attack can be particularly devastating when the vulnerable contract is holding a large amount of funds or when the function being called involves interactions with other contracts or external systems.
+
+To prevent re-entrancy attacks, developers can use various best practices, such as using the "checks-effects-interactions" pattern, which involves ensuring that all checks and effects of a function are completed before any external interactions are made. Developers can also use mutex locks or other concurrency control techniques to prevent multiple calls to the same function from executing simultaneously.
