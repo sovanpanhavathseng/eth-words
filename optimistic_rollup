@@ -1,0 +1,7 @@
+Optimistic Rollup is a scaling solution for blockchains, including Ethereum, that aims to improve transaction throughput and reduce fees while maintaining the security and decentralization of the underlying blockchain.
+
+The basic idea of Optimistic Rollup is to move most transaction processing off-chain, onto a secondary network, while still preserving the ability to verify transaction validity and enforce security guarantees using the main blockchain. This secondary network, called a "rollup", aggregates transactions and computes a single hash that is periodically submitted to the main blockchain as a proof of the rollup's state.
+
+The key innovation of Optimistic Rollup is that it assumes that transactions are valid by default, unless proven otherwise. This means that transactions are processed quickly and cheaply on the rollup network, but if there is any dispute or fraud detected, the validity of the transactions can be challenged and proven on the main blockchain using a process called "fraud proofing". This ensures that the rollup network is always held accountable and that the security guarantees of the main blockchain are still enforced.
+
+Optimistic Rollup is seen as a promising solution for scaling blockchain networks, as it can greatly increase transaction throughput and reduce fees, while still maintaining a high level of security and decentralization. Some projects are already using Optimistic Rollup, and it is expected to become more widely adopted in the future as the need for blockchain scaling solutions continues to grow.
