@@ -1,0 +1,9 @@
+Rollups are Layer 2 scaling solutions that aim to increase the scalability and efficiency of blockchain networks. They work by processing transactions off-chain and then committing the resulting state changes to the main blockchain. This allows for a significant increase in transaction throughput while reducing transaction fees and congestion on the main blockchain.
+
+There are two main types of rollups:
+
+Optimistic Rollups - These work by assuming that transactions are valid and only committing them to the main blockchain if they are proven to be invalid. This is done by including a fraud proof that can be submitted by anyone who detects an invalid transaction. Optimistic rollups are more flexible and can support arbitrary smart contract functionality, but require a higher level of security and are slower to confirm transactions.
+
+Zero-Knowledge Rollups - These use zero-knowledge proofs to verify that transactions are valid without revealing the details of the transactions themselves. This allows for a higher level of privacy and security, as well as faster confirmation times. However, zero-knowledge rollups are more limited in the types of smart contract functionality they can support.
+
+Both types of rollups offer significant improvements over the current state of blockchain technology, and have the potential to greatly increase the scalability and usability of decentralized applications. However, they are still relatively new and complex technologies, and further development and testing is needed to ensure their security and stability in real-world use cases.
