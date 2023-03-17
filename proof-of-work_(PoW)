@@ -1,0 +1,7 @@
+Proof-of-work (PoW) is a consensus algorithm used in blockchain technology to verify and validate transactions on the network. The basic idea behind PoW is to require network participants, known as miners, to perform a certain amount of computational work to add a new block to the blockchain. This computational work requires a significant amount of processing power and energy, making it difficult and expensive for any individual miner to manipulate the network.
+
+In a PoW system, miners compete to solve a cryptographic puzzle by repeatedly hashing the contents of a block until they find a hash that meets certain criteria, known as the target. The target is designed to adjust based on the network's hash rate, making it increasingly difficult to solve the puzzle over time.
+
+Once a miner finds a hash that meets the target, they broadcast the block to the network, which then verifies the validity of the block and adds it to the blockchain. The miner who solves the puzzle first is rewarded with a certain amount of cryptocurrency, incentivizing them to continue mining and securing the network.
+
+PoW is used in several popular cryptocurrencies, including Bitcoin and Ethereum, but it has come under criticism for its high energy consumption and potential centralization due to the concentration of mining power in a few large mining pools.
