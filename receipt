@@ -1,0 +1,5 @@
+An Ethereum receipt is a record of a transaction on the Ethereum blockchain. When you send Ether (the cryptocurrency used on the Ethereum network) or interact with a smart contract on the Ethereum network, a transaction is created, which is then verified and processed by nodes on the network.
+
+Once the transaction is processed, a receipt is generated, which includes information such as the transaction hash (a unique identifier for the transaction), the sender and recipient addresses, the amount of Ether transferred, and any gas fees paid.
+
+You can view Ethereum receipts using an Ethereum blockchain explorer, such as Etherscan. To view a receipt, simply enter the transaction hash into the search bar on the explorer, and the receipt will be displayed along with other details about the transaction.
