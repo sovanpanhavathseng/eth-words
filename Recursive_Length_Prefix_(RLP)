@@ -1,0 +1,13 @@
+Recursive Length Prefix (RLP) is a method for encoding arbitrary data structures in a way that can be stored on a blockchain or transmitted over a network. It is used in Ethereum to encode transaction data, contract code, and state data.
+
+RLP works by recursively encoding the data structure, breaking it down into smaller pieces until each piece can be represented as a single byte. The encoded data is then prefixed with the length of the encoded data itself. This process is repeated for each level of the data structure until the entire structure is encoded.
+
+Here is an example of encoding a simple data structure using RLP:
+
+Encode each element of the outer list recursively:
+
+Prefix the entire list with the length of the encoded data:
+
+In this example, the prefix 0xf8 indicates that the encoded data is a list and that its length is 9 bytes. The encoded data can then be stored on the blockchain or transmitted over a network.
+
+RLP is a flexible encoding method that can handle a wide range of data structures, including nested lists, variable-length integers, and byte arrays. It is widely used in Ethereum and other blockchain platforms as a standard encoding method for storing and transmitting data.
