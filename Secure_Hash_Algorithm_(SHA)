@@ -1,0 +1,9 @@
+The Secure Hash Algorithm (SHA) is a family of cryptographic hash functions that are widely used in various applications to ensure data integrity, authenticity, and security.
+
+SHA is designed to take a variable-length input message and produce a fixed-length output message, which is called a hash or message digest. The hash is typically used to verify the integrity of the input data, as even a small change in the input message will result in a completely different hash.
+
+The most commonly used SHA algorithms are SHA-1, SHA-256, SHA-384, and SHA-512, with the number indicating the length of the output hash in bits.
+
+SHA-1 was widely used in the past, but it is now considered insecure due to its vulnerabilities. SHA-256, SHA-384, and SHA-512 are currently the recommended algorithms for most applications that require secure hashing.
+
+SHA algorithms are widely used in digital signatures, password storage, message authentication codes, and other applications where data integrity and security are important.
