@@ -1,0 +1,5 @@
+RPC stands for Remote Procedure Call, and it is a protocol that allows for the execution of code on a remote server or computer over a network. In the context of blockchain technology, RPC is commonly used to interact with a blockchain node, such as an Ethereum node, to retrieve information or execute transactions.
+
+Ethereum nodes typically expose an RPC interface, which allows developers to interact with the node using a variety of programming languages and tools. The most common way to interact with an Ethereum node via RPC is using JSON-RPC, a lightweight protocol that uses JSON (JavaScript Object Notation) as its data format.
+
+Here is an example of a JSON-RPC request that retrieves the balance of an Ethereum account:
