@@ -1,0 +1,7 @@
+A soft fork is a change in the rules of a blockchain protocol that is backward-compatible with older versions of the protocol. In other words, it is a change that does not require all nodes on the network to upgrade to the new version in order to continue participating in the network.
+
+Soft forks are implemented by adding new rules to the protocol that are more restrictive than the previous rules. Nodes that have not yet upgraded to the new version will continue to operate according to the old rules, but they will still be able to participate in the network and validate transactions.
+
+Soft forks are often used to implement minor changes or improvements to the protocol, such as fixing bugs or adding new features. They are typically easier to implement than hard forks, which require all nodes on the network to upgrade to the new version in order to continue participating in the network.
+
+One example of a soft fork is the introduction of the Segregated Witness (SegWit) protocol upgrade on the Bitcoin network. SegWit added a new transaction format that was more efficient and secure, but it was still backward-compatible with older versions of the protocol. This allowed for a gradual rollout of the upgrade and avoided the need for a contentious hard fork.
