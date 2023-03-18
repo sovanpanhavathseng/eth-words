@@ -1,0 +1,13 @@
+A stablecoin is a type of cryptocurrency that is designed to have a stable value and reduce the volatility typically associated with other cryptocurrencies like Bitcoin and Ethereum. The value of a stablecoin is often pegged to a fiat currency like the US dollar or a commodity like gold.
+
+Stablecoins can be useful for a variety of purposes, including facilitating transactions, serving as a store of value, and enabling access to cryptocurrencies for people who may not want to be exposed to the price volatility of other cryptocurrencies.
+
+There are several types of stablecoins, including:
+
+Fiat-collateralized stablecoins: These are backed by reserves of fiat currency held in a bank account or a custodian. Examples of fiat-collateralized stablecoins include Tether (USDT), USD Coin (USDC), and TrueUSD (TUSD).
+
+Crypto-collateralized stablecoins: These are backed by reserves of other cryptocurrencies like Bitcoin or Ethereum. The value of the stablecoin is maintained by over-collateralizing the reserves, meaning that the value of the reserves is greater than the value of the stablecoin in circulation. Examples of crypto-collateralized stablecoins include Dai (DAI) and BitUSD.
+
+Algorithmic stablecoins: These use a combination of algorithms and smart contracts to maintain a stable value. The supply of the stablecoin can be adjusted based on market demand, and the price is stabilized by automatic buying and selling of the stablecoin. Examples of algorithmic stablecoins include Ampleforth (AMPL) and Frax (FRAX).
+
+Stablecoins have become increasingly popular in recent years, as they offer a way to hedge against the volatility of traditional cryptocurrencies and provide a more stable option for people who want to use cryptocurrencies for transactions or investment.
