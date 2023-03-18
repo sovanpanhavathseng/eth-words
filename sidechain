@@ -1,0 +1,7 @@
+In the context of blockchain technology, a sidechain refers to a separate blockchain that runs in parallel to the main blockchain (also known as the parent chain). The main purpose of a sidechain is to allow for the transfer of assets or data between the two blockchains in a secure and efficient manner.
+
+Sidechains are often used to address the scalability issues that can arise with the main blockchain. By transferring some transactions to a sidechain, the main blockchain can process more transactions per second and reduce network congestion.
+
+One example of a sidechain is the Liquid Network, which is a Bitcoin sidechain designed for fast and confidential transactions between exchanges and other institutions. Another example is the RSK (Rootstock) sidechain, which enables smart contracts on the Bitcoin network.
+
+Overall, sidechains provide a way to extend the functionality of the main blockchain and offer new use cases for blockchain technology.
