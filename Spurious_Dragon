@@ -1,0 +1,19 @@
+Spurious Dragon is the name given to a series of hard forks on the Ethereum blockchain that were implemented to address several vulnerabilities and bugs in the Ethereum Virtual Machine (EVM) and the Solidity smart contract language. The first Spurious Dragon hard fork occurred on November 22, 2016, at block number 2675000, and the second hard fork occurred on February 28, 2017, at block number 4370000.
+
+The Spurious Dragon hard forks implemented several Ethereum Improvement Proposals (EIPs) that introduced new opcodes to the EVM, fixed some security vulnerabilities, and improved gas cost estimation. Some of the notable EIPs included in the Spurious Dragon hard forks were:
+
+EIP 155: This introduced a unique chain identifier to prevent replay attacks across different Ethereum chains.
+
+EIP 160: This changed the gas cost of several opcodes to better align with their computational complexity.
+
+EIP 161: This introduced a new opcode to the EVM that enabled smart contracts to perform checks on their own code.
+
+EIP 170: This introduced a new opcode to the EVM that allowed smart contracts to perform more efficient bitwise operations.
+
+EIP 211: This introduced a new opcode to the EVM that allowed smart contracts to retrieve their own address.
+
+EIP 214: This introduced a new opcode to the EVM that enabled smart contracts to perform state access restrictions.
+
+EIP 649: This introduced a new opcode to the EVM that allowed for the transfer of a certain amount of ether to multiple addresses in a single transaction.
+
+These changes improved the security, efficiency, and functionality of the Ethereum network, and helped to further establish it as a reliable and secure blockchain platform.
