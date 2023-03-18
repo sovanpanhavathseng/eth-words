@@ -1,0 +1,7 @@
+In Ethereum 2.0, the sync committee is a group of validators responsible for helping new nodes join the network and sync with the current state of the blockchain. The sync committee is designed to improve the efficiency of the syncing process and reduce the amount of network bandwidth required for new nodes to catch up with the current state of the blockchain.
+
+When a new node joins the network, it needs to download and verify all of the blocks in the blockchain, which can be a time-consuming and resource-intensive process. To make this process more efficient, the sync committee periodically generates and shares small "sync checkpoints" that new nodes can use to quickly verify that their local copy of the blockchain is up-to-date. These checkpoints include a small set of blocks that the node can use to quickly sync with the current state of the network.
+
+The sync committee is composed of a fixed number of validators that are randomly selected from the larger validator set. Each validator in the sync committee is responsible for creating and sharing a portion of the sync checkpoints, and is rewarded with additional staking rewards for their participation.
+
+By using a sync committee to help new nodes join the network and sync with the blockchain, Ethereum 2.0 aims to improve the efficiency and scalability of the network, while reducing the resource requirements for participating in the consensus process.
