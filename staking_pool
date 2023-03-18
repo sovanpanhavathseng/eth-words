@@ -1,0 +1,7 @@
+A staking pool is a smart contract that allows multiple users to pool their tokens together to participate in a staking program. Here's an example of a staking pool contract in Solidity:
+
+In this example, the StakingPool contract also interacts with an ERC20 token through the IToken interface. Users can deposit their tokens into the pool by calling the deposit function, which transfers the tokens from the user's address to the pool's address. The user's deposit is recorded in the balances mapping, and the total pool balance is tracked in the totalBalance variable.
+
+Users can also withdraw their tokens from the pool by calling the withdraw function, which transfers the tokens back to the user's address and updates the balances mapping and totalBalance variable accordingly. The claimRewards function calculates the amount of rewards that each user has earned since the last time rewards were claimed and adds it to their rewards balance.
+
+The amount of rewards earned is calculated based on the number of blocks that have passed since the last reward was claimed,
