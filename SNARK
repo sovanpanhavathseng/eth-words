@@ -1,0 +1,9 @@
+SNARK stands for "Succinct Non-Interactive Argument of Knowledge". It is a type of zero-knowledge proof that enables one party to prove to another that they have certain information without revealing any information beyond the validity of the statement being proven.
+
+In other words, SNARKs allow for the verification of the authenticity of data without the need to disclose the actual data itself. They can be used to prove the correctness of a computation, the ownership of an asset, or the possession of a secret without revealing any information beyond the validity of the statement being proven.
+
+SNARKs are particularly useful in blockchain and cryptocurrency applications because they allow for the verification of transactions without revealing the details of those transactions. This enables transactions to be validated by the network without exposing sensitive financial information.
+
+The development of efficient and practical SNARKs has opened up new possibilities for privacy and security in decentralized systems. For example, SNARKs can be used to build private smart contracts, where the inputs, outputs, and execution of the contract can be kept completely private.
+
+While SNARKs are a powerful tool for privacy and security, they can be quite complex to implement and require a high level of mathematical knowledge. Additionally, SNARKs are computationally intensive, and their implementation can require significant processing power and energy. As a result, SNARKs are still an area of ongoing research and development in the blockchain and cryptography fields.
