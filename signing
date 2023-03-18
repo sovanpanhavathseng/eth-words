@@ -1,0 +1,11 @@
+In cryptography, signing refers to the process of attaching a digital signature to a document or message to prove its authenticity and integrity. A digital signature is a mathematical scheme that provides a way to verify the authenticity of a digital message or document and ensure that it has not been tampered with.
+
+The signing process typically involves the following steps:
+
+Hashing: The message or document to be signed is first hashed using a cryptographic hash function. The hash function produces a fixed-length output that is unique to the input message, making it difficult for an attacker to modify the message without changing its hash value.
+
+Signing: The signer uses their private key to sign the hash value of the message or document. This creates a digital signature that is unique to both the message and the signer's private key.
+
+Verification: The recipient of the message or document can verify the authenticity of the signature by using the signer's public key to decrypt the signature and obtain the original hash value. The recipient can then hash the message themselves and compare the two hash values to ensure that they match.
+
+Digital signatures are commonly used in a variety of applications, such as secure email communication, electronic transactions, and authentication of software updates. They provide a way to ensure the authenticity and integrity of digital content and protect against unauthorized modification or tampering.
