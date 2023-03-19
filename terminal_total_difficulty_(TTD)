@@ -1,0 +1,1 @@
+The total difficulty is the sum of the Ethash mining difficulty for all blocks up to some specific point in the blockchain. The terminal total difficulty is a specific value for the total difficulty that was used as the trigger for execution clients to switch off their mining and block gossip functions enabling the network to transition to proof-of-stake.
