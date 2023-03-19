@@ -1,0 +1,1 @@
+Introduced by ERC-20 proposal, this provides a standardized smart contract structure for fungible tokens. Tokens from the same contract can be tracked, traded, and are interchangeable, unlike NFTs.
