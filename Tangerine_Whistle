@@ -1,0 +1,1 @@
+A hard fork of the Ethereum blockchain, which occurred at block 2,463,000 to change the gas calculation for certain I/O-intensive operations and to clear the accumulated state from a denial-of-service attack, which exploited the low gas cost of those operations.
