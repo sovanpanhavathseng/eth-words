@@ -1,0 +1,5 @@
+A fee you need to pay whenever you use the Ethereum network. Examples include sending funds from your wallet or a dapp interaction, like swapping tokens or buying a collectable. You can think of this like a service charge. This fee will change based on how busy the network is. This is because validators, the people responsible for processing your transaction, are likely to prioritize transactions with higher fees – so congestion forces the price up.
+
+At a technical level, your transaction fee relates to how much gas your transaction requires.
+
+Reducing transaction fees is a subject of intense interest right now. See Layer 2.
