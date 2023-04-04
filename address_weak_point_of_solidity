@@ -1,0 +1,7 @@
+In Solidity, the address type represents a 20-byte value that can hold an Ethereum address. While the address type is essential for many smart contracts, it also has some weak points that developers should be aware of.
+
+One significant weak point of the address type in Solidity is that it is susceptible to human errors, such as mistyping an address or sending funds to the wrong address. These errors can result in the loss of funds, and since Ethereum transactions are irreversible, it is often impossible to recover them once they have been sent.
+
+Another weak point of the address type is that it is a public variable, meaning that anyone can see the contents of the variable. This can be a security concern if the address variable is used to store sensitive information, such as private keys or passwords.
+
+To mitigate these weak points, Solidity developers should follow best practices for secure smart contract development, such as using address checksums to reduce the risk of mistyped addresses and implementing access controls to restrict who can see or interact with address variables. Additionally, using secure and audited smart contract frameworks can also help to minimize the risk of vulnerabilities in your code.
