@@ -1,0 +1,11 @@
+In Solidity, the assert() function is commonly used to check for critical conditions that must always hold true in a smart contract. When an assertion fails, the transaction will be reverted, and all changes made to the state will be discarded. However, there are a few weak points of the assert() function that you should be aware of:
+
+No Error Message: The assert() function does not provide any error message, which makes it difficult to diagnose the problem that caused the assertion to fail.
+
+Gas Consumption: The assert() function consumes all the remaining gas in the current transaction. If the transaction has insufficient gas, it will not be executed.
+
+No Recovery: If an assertion fails, the transaction will be reverted, and all changes made to the state will be discarded. There is no way to recover from a failed assertion.
+
+Limited Use Cases: The assert() function is intended to be used only for critical conditions that should never occur. It should not be used for checking user inputs or validating non-critical conditions.
+
+To overcome some of these weaknesses, you can use the require() function instead of assert(). The require() function behaves similarly to assert(), but it provides an error message and refunds any remaining gas to the caller. Additionally, you can use other techniques like error codes or events to provide more detailed error information and improve contract usability.
