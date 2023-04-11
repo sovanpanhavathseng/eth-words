@@ -1,0 +1,7 @@
+In Solidity, the weakness of block validation lies in the fact that it is possible for attackers to manipulate the timestamp of a block.
+
+The timestamp of a block is determined by the miner who creates the block, and it can be set to any value that is within a certain range. This means that an attacker could potentially manipulate the timestamp of a block in order to make it appear as though it was created at a different time than it actually was.
+
+This could be a problem in situations where the timestamp of a block is used to determine the validity of a transaction or the execution of a smart contract. If an attacker is able to manipulate the timestamp of a block in such a way that it makes a transaction or contract execution appear valid when it shouldn't be, they could potentially exploit this vulnerability to steal funds or cause other harm.
+
+To mitigate this risk, it is important to use additional measures to validate transactions and contract executions, such as checking the state of the blockchain and verifying that the inputs and outputs of a transaction are valid. Additionally, it may be helpful to use external time sources, such as NTP servers, to ensure that the timestamps of blocks are accurate and cannot be manipulated by attackers.
