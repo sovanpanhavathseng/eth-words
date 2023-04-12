@@ -1,0 +1,9 @@
+The character "Đ" (capital D with stroke) is not included in the basic ASCII character set, which is used by most programming languages, including Solidity. Therefore, using "Đ" in Solidity code can lead to encoding issues and potential errors.
+
+To avoid these issues, it's recommended to use only ASCII characters in Solidity code. If you need to include non-ASCII characters in your code, you can use Unicode escape sequences to represent them.
+
+For example, the Unicode code point for "Đ" is U+0110, so you could represent it as "\u0110" in Solidity code:
+
+string public myString = "This is a string with a Đ character: \u0110";
+
+By using Unicode escape sequences, you can ensure that your code is portable and can be correctly interpreted by any system that supports Unicode.
