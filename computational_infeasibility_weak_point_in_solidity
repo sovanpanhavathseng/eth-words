@@ -1,0 +1,7 @@
+Solidity is a programming language used to develop smart contracts on the Ethereum blockchain. Computational infeasibility is a weakness that can occur in Solidity smart contracts, particularly when it comes to certain cryptographic operations.
+
+Computational infeasibility refers to a situation where a calculation or operation is so complex that it cannot be completed within a reasonable timeframe, even by a powerful computer. In Solidity, this weakness can occur in functions that involve certain types of cryptographic operations, such as hashing or encryption.
+
+For example, if a Solidity smart contract involves a function that requires a large number of cryptographic calculations, such as generating a Merkle tree or validating a complex cryptographic signature, it could potentially become computationally infeasible to execute the function in a reasonable amount of time. This could lead to delays or even failures in executing the function, which could have serious implications for the security and reliability of the smart contract.
+
+To address this weakness, developers can take several steps to optimize the performance of Solidity smart contracts. This includes using more efficient cryptographic algorithms, minimizing the amount of data that needs to be processed, and using off-chain computation or specialized hardware to handle particularly complex operations. It is also important to thoroughly test and audit smart contracts to identify any potential performance issues and address them before deployment.
