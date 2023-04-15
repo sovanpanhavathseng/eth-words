@@ -1,0 +1,13 @@
+Solidity is a programming language used to write smart contracts on the Ethereum blockchain. The weak point of discovery in Solidity refers to the possibility of bugs or vulnerabilities in smart contracts that could be exploited by attackers to steal funds or manipulate the contract's behavior.
+
+Some of the common weak points in Solidity include:
+
+Integer Over/Underflow: This happens when an integer value exceeds its maximum or minimum value, which can cause unexpected behavior in the contract.
+
+Reentrancy Attacks: This occurs when an attacker repeatedly calls a vulnerable contract before the first call is completed, allowing the attacker to manipulate the contract's state and steal funds.
+
+Solidity Compiler Bugs: The Solidity compiler is still relatively new, and there have been instances where it has produced faulty bytecode, which can cause unexpected behavior in a contract.
+
+Lack of Input Validation: Contracts that do not properly validate user input can be vulnerable to attacks such as buffer overflow or SQL injection.
+
+To mitigate these weak points, it's important to follow best practices when writing Solidity contracts, including proper testing, code review, and using secure coding techniques. Additionally, auditing by security experts can help to identify and mitigate potential vulnerabilities in a contract.
