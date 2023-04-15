@@ -1,0 +1,13 @@
+Double spending is a potential vulnerability in any cryptocurrency system, including Ethereum, which is the blockchain that Solidity is primarily used for. Double spending refers to the act of spending the same cryptocurrency tokens twice, which is possible because cryptocurrencies are digital and can be easily copied.
+
+The weak point of double spending in Solidity primarily relates to the implementation of smart contracts and their handling of transaction confirmations. A common example of a smart contract that is vulnerable to double spending is a simple payment channel, which allows users to send and receive cryptocurrency without incurring the high transaction fees associated with direct on-chain transactions.
+
+Some of the common weak points in Solidity smart contracts that could enable double spending include:
+
+Lack of transaction confirmation: A smart contract may not wait for enough confirmations of a transaction before allowing further actions to be taken. This can enable double spending if a user manages to broadcast two conflicting transactions and the smart contract does not wait for enough confirmations to ensure that the transaction is valid.
+
+Reentrancy attacks: Similar to the vulnerability mentioned earlier for DHTs, a reentrancy attack can enable an attacker to repeatedly call a vulnerable smart contract before the first call is completed, potentially enabling double spending.
+
+Incorrect input validation: A smart contract may not properly validate user input, which could enable an attacker to exploit vulnerabilities and enable double spending.
+
+To mitigate these weak points, it's important to follow best practices when writing Solidity smart contracts, including proper input validation, careful design of transaction confirmation processes, and use of secure coding techniques. Additionally, security auditing by experts can help to identify and address potential vulnerabilities in a contract.
