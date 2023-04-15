@@ -1,0 +1,62 @@
+Usage: truffle <command> [options]
+
+Commands:
+  truffle build      Execute build pipeline (if configuration present)
+  truffle compile    Compile contract source files
+(—all, —list, —compiler,—config,—quiet)
+
+  truffle config     Set user-level configuration options
+(—enable-analytics,—disable-analytics)
+
+  truffle console    Run a console with contract abstractions and commands
+(—url,—network,—-verbose-rpc,—require|-r,--require-none,--config)
+                     available
+  truffle create     Helper to create new contracts, migrations and tests
+
+  truffle dashboard  Start Truffle Dashboard to sign development transactions
+(--port,--host,--verbose)
+                     using browser wallet
+
+  truffle db         Database interface commands
+  truffle debug      Interactively debug any 
+transaction on the blockchain
+(--fetch-external|-x,--network,--url,--compile-tests,--compile-all.,--compile-all,--compile-none,--config)
+
+  truffle deploy     (alias for migrate)
+(--reset,—f,--to,--compile-all--compile-none,--verbose-rpc,--interactive,--dry-run,--skip-dry-run,--describe-json,--network,--config)
+
+  truffle develop    Open a console with a local development blockchain
+(--log,--require|-r,--require-none,--config)
+
+  truffle exec       Execute a JS module within this Truffle environment
+(--compile,--network,--config)
+
+  truffle help       List all commands or provide information about a specific command
+
+  truffle init       Initialize new and empty Ethereum project
+(--force)
+
+  truffle migrate    Run migrations to deploy contracts
+(--reset,—f,--to,--compile-all,--compile-none,--verbose-rpc,--interactive,--dry-run,--skip-dry-run,--describe-json,--network,--config,--quiet)
+
+  truffle networks   Show addresses for deployed contracts on each network
+
+  truffle obtain     Fetch and cache a specified compiler
+(--solc,--quiet)
+
+  truffle opcode     Print the compiled opcodes for a given contract
+
+  truffle preserve   Save data to decentralized storage platforms like IPFS Filecoins
+
+  truffle run        Run a third-party command
+
+  truffle test       Run JavaScript and Solidity
+tests
+(--compile-all,--compile-none,--compile-all-debug,--migrate-none,--verbose-rpc,--show-events,--debug,--compile-all.,--debug-global--runner-output-only,--bail|-b,--stacktrace,--stacktrace-extra,--grep|-g,--reporter|-r,--network,--config)
+
+  truffle unbox      Download a Truffle Box, a pre-built Truffle project
+(--force,--quiet)
+
+  truffle version    Show version number and exit
+
+  truffle watch      Watch filesystem for changes and rebuild the project automatically
