@@ -1,0 +1,13 @@
+In Solidity, finality refers to the state of a transaction or block being considered irreversible and settled. While finality is important for ensuring the security and reliability of blockchain systems, there are some weaknesses associated with it:
+
+Forks and Reorganizations: In blockchain systems, forks and reorganizations can occur when multiple nodes have different versions of the blockchain. If a transaction or block is considered final on one chain but not on another, it can lead to inconsistencies and potentially result in double-spending or other issues.
+
+Centralization: Finality can be centralized in some blockchain systems, as a small group of validators or nodes may have the power to determine the finality of a transaction or block. This can introduce a risk of censorship or manipulation if the validators or nodes are compromised or collude.
+
+Confirmation Times: Finality can take time to achieve, as it requires multiple confirmations from nodes on the network. This can result in delays and slower transaction processing times, which can be a disadvantage for applications that require fast and efficient transactions.
+
+Complexity: Finality requires complex algorithms and consensus mechanisms to ensure that transactions and blocks are settled and irreversible. This can make the blockchain system more complex and difficult to understand, which can lead to errors and security vulnerabilities.
+
+Cost: Finality can come at a cost, as it requires resources such as computational power and energy to achieve consensus and settle transactions. This can make the blockchain system less accessible and less environmentally sustainable.
+
+Overall, while finality is an important aspect of blockchain systems, it is important to be aware of its weaknesses and to implement mechanisms to address them in order to ensure the security and reliability of the system.
