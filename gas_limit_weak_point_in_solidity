@@ -1,0 +1,13 @@
+In Solidity, gas limit is the maximum amount of gas that can be used to execute a transaction or contract on the Ethereum network. While gas limit is an important mechanism for preventing the overuse of computational resources on the network, there are some weaknesses associated with it:
+
+Limitations: Gas limit imposes a limit on the amount of computational resources that can be used for a given transaction or contract. This can be a disadvantage for developers who need to execute complex operations that require more resources than the gas limit allows.
+
+Cost: Gas limit can be expensive, especially during times of high network congestion. This can result in higher transaction fees and make it difficult for users to use the network, especially for small transactions or applications with limited resources.
+
+Vulnerabilities: Gas limit can be vulnerable to certain types of attacks, such as gas limit manipulation. This can result in the overuse of computational resources, which can slow down the network and increase transaction fees.
+
+Dependence on gas price: Gas limit is dependent on the market price of Ether and the current gas price. This can make it difficult for users to predict the cost of transactions and can result in unexpected costs or delays.
+
+Potential for wasted gas: If a transaction or contract does not use up all of the gas that is allocated to it, the remaining gas is lost and cannot be reclaimed. This can be a disadvantage for users who are not familiar with the gas limit mechanism and may result in wasted resources.
+
+Overall, while gas limit is an important mechanism for preventing the overuse of computational resources on the Ethereum network, it has several weaknesses that need to be addressed in order to ensure the scalability, accessibility, and security of the network. Improvements and enhancements to gas limit, such as the introduction of more flexible gas limits or alternative gas models, are important steps towards addressing these weaknesses.
