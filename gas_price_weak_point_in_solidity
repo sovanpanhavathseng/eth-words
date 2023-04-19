@@ -1,0 +1,9 @@
+In Solidity, gas price refers to the cost of executing a transaction on the Ethereum network. Transactions are executed by nodes on the network, and gas is the unit used to measure the computational effort required to execute a transaction.
+
+The weak point of gas price in Solidity is that it is subject to market fluctuations. The price of gas is determined by supply and demand, and can be influenced by factors such as network congestion and the price of Ether.
+
+When the network is congested, the gas price can increase significantly, making it more expensive to execute transactions. This can be a problem for developers who want to build applications on the Ethereum network, as they may need to pay higher gas fees to ensure that their transactions are processed in a timely manner.
+
+To mitigate the impact of gas price fluctuations, developers can use gas optimization techniques such as minimizing the amount of data that needs to be stored on the blockchain, or batching transactions to reduce the number of transactions required. They can also set the gas price limit to a reasonable level and monitor the network status to adjust it accordingly.
+
+Overall, while gas price fluctuations can be a challenge for developers building on the Ethereum network, there are ways to mitigate their impact and ensure that applications are still able to function efficiently.
