@@ -1,0 +1,9 @@
+One of the key features of smart contracts written in Solidity is that the code is immutable once it has been deployed to the Ethereum network. While this provides a high level of security and trust in the code, there are some potential weak points associated with immutable deployed code:
+
+Bugs and vulnerabilities: While smart contracts are designed to be secure and bug-free, there is always the possibility of undiscovered bugs or vulnerabilities in the code. Once the code is deployed and immutable, it can be difficult or impossible to fix these issues without creating a new contract and migrating all data and assets to the new contract.
+
+Contract upgrades: When new features or updates are needed in a smart contract, it can be difficult or impossible to upgrade the existing contract without creating a new contract and migrating all data and assets to the new contract. This can lead to fragmentation of the user base and create confusion and uncertainty for users.
+
+Regulatory compliance: In some cases, regulatory requirements or changes in regulations may require updates or modifications to the smart contract code. If the code is immutable, it can be difficult to make these changes without creating a new contract and migrating all data and assets to the new contract.
+
+To mitigate these potential weaknesses, it is important for Solidity developers to carefully plan and design their smart contracts to minimize the risk of bugs and vulnerabilities. Additionally, developers should consider using upgradeable smart contracts, which use a proxy contract to enable updates and modifications to the underlying contract code while preserving the contract's data and assets. Finally, developers should stay up to date with regulatory requirements and changes to ensure that their contracts remain compliant with relevant regulations.
