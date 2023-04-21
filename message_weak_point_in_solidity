@@ -1,0 +1,9 @@
+In Solidity, a message refers to the data that is sent with a function call, such as the function arguments and the sender's address. While messages have several advantages, such as enabling communication between smart contracts and external entities, they also have some weak points that developers should be aware of.
+
+One of the main weak points of messages in Solidity is the potential for malicious or erroneous input. Messages can be manipulated by attackers to include incorrect or malicious data, such as invalid function arguments or false sender addresses. This can potentially result in unexpected behavior or vulnerabilities in smart contracts.
+
+Another weak point is the potential for message spamming attacks. Messages can potentially be sent in large numbers to overwhelm or exhaust the resources of a smart contract, leading to a denial of service (DoS) attack.
+
+Additionally, messages can potentially be subject to network congestion and delays, leading to slower transaction processing times and potentially higher gas costs.
+
+Finally, the use of messages can potentially introduce additional complexity into smart contract development and increase the risk of errors or vulnerabilities. Developers must carefully consider their project's requirements and the potential risks and trade-offs of using messages in their smart contracts.
