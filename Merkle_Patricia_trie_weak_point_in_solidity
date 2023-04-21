@@ -1,0 +1,9 @@
+In Solidity, the Merkle Patricia Trie (MPT) is a data structure used to store and organize data in a hierarchical tree-like structure. While MPT has several advantages, such as efficient storage and retrieval of data, it also has some weak points that developers should be aware of.
+
+One of the main weak points of MPT in Solidity is the increased complexity of the data structure. MPT uses a complex set of rules to organize and store data in a trie-like structure, which can make it more challenging to implement and understand. Additionally, MPT can require a large amount of computational resources to build and traverse the trie, which can potentially impact performance.
+
+Another weak point is the potential for data duplication. MPT stores data in a trie-like structure, which can potentially result in duplicate data being stored in different branches of the trie. This can increase the storage requirements and potentially impact performance.
+
+Additionally, MPT may not be suitable for all use cases. For example, if a project requires low-latency data storage or retrieval, other data storage solutions may be more appropriate. Developers must carefully consider their project's requirements before deciding to use MPT.
+
+Finally, MPT is still a relatively new data structure and may be subject to future vulnerabilities or attacks. Developers must stay up-to-date with the latest developments in MPT and carefully evaluate the security and performance trade-offs of using MPT in their project.
