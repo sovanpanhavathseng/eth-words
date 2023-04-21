@@ -1,0 +1,9 @@
+In Solidity, a message call is a type of transaction that is used to invoke a function in another smart contract. While message calls have several advantages, such as enabling interaction between smart contracts, they also have some weak points that developers should be aware of.
+
+One of the main weak points of message calls in Solidity is the potential for reentrancy attacks. Reentrancy attacks occur when a malicious contract recursively calls itself or another contract before the original call completes, potentially leading to unexpected behavior or vulnerabilities in smart contracts.
+
+Another weak point is the potential for gas exhaustion attacks. Message calls can potentially be used to consume large amounts of gas or computational resources, leading to a denial of service (DoS) attack.
+
+Additionally, message calls can potentially be subject to network congestion and delays, leading to slower transaction processing times and potentially higher gas costs.
+
+Finally, the use of message calls can potentially introduce additional complexity into smart contract development and increase the risk of errors or vulnerabilities. Developers must carefully consider their project's requirements and the potential risks and trade-offs of using message calls in their smart contracts. They should also implement proper security measures, such as using guard clauses and limiting the amount of gas that can be used in a single transaction.
