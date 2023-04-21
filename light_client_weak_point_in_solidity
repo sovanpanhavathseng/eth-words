@@ -1,0 +1,9 @@
+In Solidity, a light client is a type of client that allows a user to interact with the Ethereum network without having to download and store the entire blockchain. While light clients have several advantages, such as reduced storage requirements and increased mobility, they also have some weak points that developers should be aware of.
+
+One of the main weak points of light clients in Solidity is the reduced security compared to full nodes. Light clients rely on other nodes on the network to provide them with information, which can potentially make them more vulnerable to attacks. For example, a malicious node could provide a light client with false information, which could result in the client executing an incorrect or malicious transaction.
+
+Another weak point is the increased complexity compared to full nodes. Light clients must implement additional protocols to ensure that they receive accurate information from the network, which can make them more challenging to develop and maintain.
+
+Additionally, light clients may not be suitable for all use cases. For example, if a contract requires access to historical data or state information, a light client may not be able to provide this information. In these cases, a full node may be necessary.
+
+Finally, light clients may require additional network bandwidth compared to full nodes, as they must communicate with multiple nodes on the network to ensure that they receive accurate information. This increased bandwidth requirement can potentially make light clients less suitable for low-bandwidth or high-latency environments.
