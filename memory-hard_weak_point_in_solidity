@@ -1,0 +1,9 @@
+In Solidity, Memory-Hardness is a technique used to make a hash function more resistant to memory-based attacks, such as a memory-bounded attacker who uses parallel computation to try to crack the hash. While memory-hard hash functions have several advantages, such as increased security and resistance to certain types of attacks, they also have some weak points that developers should be aware of.
+
+One of the main weak points of Memory-Hardness in Solidity is the increased computational cost of the hash function. Memory-hard hash functions require a large amount of memory to compute, which can make them more computationally expensive and slower than other types of hash functions. This can potentially make them unsuitable for certain types of applications that require fast hash computation times.
+
+Another weak point is the potential for memory exhaustion attacks. Memory-hard hash functions require a large amount of memory to compute, which can potentially allow attackers to exhaust a victim's memory resources by repeatedly requesting the computation of the hash function. This can potentially lead to denial of service (DoS) attacks or other types of memory-based attacks.
+
+Additionally, Memory-Hardness may not be suitable for all use cases. For example, if a project requires a hash function that is optimized for low memory usage or that is resistant to other types of attacks, other hash functions may be more appropriate. Developers must carefully consider their project's requirements before deciding to use a Memory-Hard hash function.
+
+Finally, Memory-Hardness is still a relatively new technique and may be subject to future attacks or vulnerabilities. Developers must stay up-to-date with the latest developments in Memory-Hardness and carefully evaluate the security and performance trade-offs of using a Memory-Hard hash function in their project.
