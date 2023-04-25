@@ -1,0 +1,9 @@
+A re-entrancy attack is a common vulnerability in Solidity smart contracts that allows an attacker to repeatedly call a contract function before the previous invocation has completed. The primary weakness of a re-entrancy attack in Solidity is that it allows an attacker to drain the contract's funds or execute unintended operations on the contract.
+
+One of the main reasons for this vulnerability is that Solidity's default behavior is to allow an external contract to call back into the original contract before the first call has finished executing. This means that if a contract function interacts with an external contract that also calls back into the original contract, it creates a recursive loop that can be exploited by an attacker.
+
+To mitigate the risk of a re-entrancy attack, it is important to implement proper checks and balances in the contract code. One approach is to use the "checks-effects-interactions" pattern, where the contract first checks all preconditions and requirements before executing any operations, then executes all internal state changes, and finally interacts with any external contracts. This can help prevent an attacker from exploiting the recursive loop and draining the contract's funds.
+
+Additionally, it is recommended to limit the amount of gas available to the external contracts, as this can help prevent the recursive loop from continuing indefinitely. This can be done by setting a gas limit on the external calls or using the "withdraw pattern", which involves transferring funds to an external contract only after all state changes have been completed.
+
+Overall, a re-entrancy attack can be a serious vulnerability in Solidity smart contracts, but it can be mitigated by following best practices and implementing proper security measures in the contract code.
