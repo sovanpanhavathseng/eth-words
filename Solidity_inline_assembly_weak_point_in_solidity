@@ -1,0 +1,11 @@
+Solidity inline assembly has some weaknesses, including:
+
+Security risks: Inline assembly can be a powerful tool, but it can also be a security risk if not used properly. Writing incorrect or malicious inline assembly code can lead to serious security vulnerabilities in your smart contract.
+
+Limited functionality: Solidity inline assembly has limited functionality compared to other programming languages. It is designed to provide low-level access to the Ethereum Virtual Machine (EVM) and does not have the high-level abstractions provided by Solidity.
+
+Complex syntax: Solidity inline assembly has a complex syntax that can be difficult to understand and use. It requires knowledge of low-level EVM opcodes, which can be challenging for developers who are not familiar with them.
+
+Limited portability: Solidity inline assembly code is not portable across different EVM implementations, as different implementations may have different opcodes or semantics. This can make it difficult to write portable smart contracts that work across different EVM implementations.
+
+Limited tooling support: Solidity inline assembly has limited tooling support compared to Solidity. There are fewer debugging and analysis tools available for inline assembly code, which can make it difficult to develop and maintain complex smart contracts that use inline assembly.
