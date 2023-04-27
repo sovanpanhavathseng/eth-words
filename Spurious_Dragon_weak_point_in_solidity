@@ -1,0 +1,7 @@
+Spurious Dragon was the name given to a hard fork in the Ethereum network that was activated in November 2016. This hard fork addressed several vulnerabilities in the Ethereum Virtual Machine (EVM) and the Solidity programming language.
+
+One of the weaknesses of the Solidity programming language that was addressed by the Spurious Dragon hard fork was related to how the language handled exceptions. Prior to the hard fork, Solidity did not handle exceptions correctly, which could result in unexpected behavior or even vulnerabilities in smart contracts.
+
+In particular, the way Solidity handled exceptions made it possible for an attacker to create a malicious contract that would exploit this weakness and cause other contracts to fail or behave unexpectedly. The Spurious Dragon hard fork introduced improvements to Solidity's exception handling mechanism to prevent this type of attack.
+
+Therefore, one of the weaknesses of Solidity that was addressed by the Spurious Dragon hard fork was related to its exception handling mechanism, which could be exploited by attackers to cause unexpected behavior or vulnerabilities in smart contracts.
