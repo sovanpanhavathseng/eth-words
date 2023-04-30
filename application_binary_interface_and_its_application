@@ -1,0 +1,10 @@
+
+An Application Binary Interface (ABI) is an interface between two binary program modules, often operating at different privilege levels or executing on different CPUs. The ABI defines how the two modules interact at the binary level, including the format of data structures, function calling conventions, and system call numbers.
+
+The main purpose of an ABI is to provide a standard interface between the operating system and user programs. By defining a common interface, the ABI enables programs to be compiled and linked on different systems, and allows them to run without modification on different architectures or operating systems.
+
+The ABI is also important for libraries, as it defines the interface between a library and its users. By following a standard ABI, libraries can be used by any program that conforms to the same ABI, regardless of the programming language used.
+
+In addition to the operating system and libraries, ABIs are also used in other contexts, such as in the communication between different parts of a distributed system or in the exchange of data between different software components.
+
+Some common examples of ABIs include the System V ABI used on most Unix-like systems, the Windows API used on Windows systems, and the Android NDK used for developing applications for Android devices.
