@@ -1,0 +1,14 @@
+
+In the context of blockchain technology, base fee refers to the minimum transaction fee required for a transaction to be included in a block on the network.
+
+The base fee is usually denominated in the cryptocurrency of the network, such as Ether for the Ethereum network. It is dynamically adjusted based on network demand and congestion, to ensure that the network remains efficient and secure.
+
+Here are some applications of base fee in blockchain technology:
+
+Transaction Processing: Base fee is used to incentivize miners to include transactions in blocks on the network. Transactions that offer higher fees than the base fee are prioritized by miners, because they can earn more rewards for including them in a block.
+
+Network Security: Base fee is used to prevent spam attacks and other types of malicious activity on the network. By requiring a minimum fee for transactions, the network can prevent attackers from flooding the network with low-value or fraudulent transactions.
+
+User Experience: Base fee can affect the user experience of the network, by influencing transaction times and costs. When the base fee is high, transactions may take longer to process or become more expensive to execute, leading to frustration among users.
+
+Overall, base fee is an important component of blockchain technology, enabling efficient and secure transaction processing, while also influencing user behavior and network dynamics.
