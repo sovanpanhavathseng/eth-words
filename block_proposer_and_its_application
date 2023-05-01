@@ -1,0 +1,10 @@
+
+In blockchain technology, a block proposer is a participant in the network who is responsible for creating and broadcasting new blocks to the rest of the network. The block proposer is typically a miner who is rewarded with cryptocurrency for their role in creating new blocks.
+
+The role of the block proposer is critical to the functioning of the blockchain network. When a new transaction is initiated, it is broadcast to the network and picked up by a miner who acts as a block proposer. The block proposer then creates a new block, which contains a set of transactions along with a nonce value that satisfies the network's consensus rules. Once the block has been created, the block proposer broadcasts it to the network, where it is validated and added to the blockchain.
+
+One of the main applications of the block proposer role is to maintain the integrity and security of the blockchain network. By requiring participants to solve a cryptographic puzzle in order to create new blocks, the network ensures that only honest actors are able to add new blocks to the blockchain. This helps prevent the possibility of a malicious actor altering the blockchain by creating an alternate version of the chain.
+
+Another important application of the block proposer role is to incentivize participation in the blockchain network. By rewarding block proposers with cryptocurrency for their work in creating new blocks, the network encourages miners to invest resources in maintaining the security and integrity of the network.
+
+Overall, the block proposer role is a critical component of the blockchain network, responsible for creating and broadcasting new blocks to the rest of the network. By incentivizing participation and maintaining the security and integrity of the blockchain, the block proposer plays a critical role in the functioning of the network as a whole.
