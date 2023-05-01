@@ -1,0 +1,10 @@
+
+Big-endian is a method of ordering bytes in a computer's memory, where the most significant byte (MSB) is stored at the lowest memory address. This means that the most significant bits of a multi-byte data type are stored first, followed by the least significant bits.
+
+In contrast, the opposite byte ordering scheme is known as little-endian, where the least significant byte (LSB) is stored at the lowest memory address.
+
+Big-endian byte ordering is used in many computer systems, including most RISC-based processors, as well as in networking protocols such as TCP/IP and Ethernet.
+
+One of the key benefits of big-endian byte ordering is that it simplifies data conversion between different computer architectures. For example, when transmitting data between a big-endian and a little-endian machine, the data must be converted from one byte ordering scheme to the other. In contrast, when communicating between two big-endian machines, no byte ordering conversion is necessary.
+
+Overall, the choice of byte ordering depends on the architecture of the system and the specific application requirements.
