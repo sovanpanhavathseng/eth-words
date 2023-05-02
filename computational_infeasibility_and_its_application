@@ -1,0 +1,16 @@
+
+Computational infeasibility refers to the situation where a computational problem is so complex that it cannot be solved within a reasonable amount of time using current computing resources. This concept is widely used in computer science and cryptography to describe the limitations of current algorithms and computing power.
+
+Here are some applications of computational infeasibility:
+
+Cryptography: Computational infeasibility is a key concept in cryptography, where it is used to describe the difficulty of breaking encryption algorithms. For example, if an encryption algorithm is computationally infeasible to break, it means that even with the most powerful computers available today, it would take an impractical amount of time to decrypt the information.
+
+Optimization: Computational infeasibility is also relevant in optimization problems, where the goal is to find the best solution among a large number of possible solutions. In some cases, the search space is so large that finding the optimal solution is computationally infeasible using current algorithms and computing resources.
+
+Simulation: Computational infeasibility is also relevant in simulations, where the goal is to simulate complex systems or phenomena. In some cases, the simulations can be so computationally intensive that they are infeasible to run on current computers within a reasonable amount of time.
+
+Machine Learning: Computational infeasibility is also a concern in machine learning, where the goal is to train models on large datasets. In some cases, the training process can be so computationally intensive that it is infeasible to train the models on a single machine. In these cases, distributed computing or specialized hardware such as GPUs may be required.
+
+Algorithmic complexity: Computational infeasibility is also a key concept in the analysis of algorithmic complexity, where it is used to describe the worst-case running time of an algorithm. If an algorithm has a worst-case running time that grows exponentially with the input size, it is said to be computationally infeasible for large inputs.
+
+Overall, computational infeasibility is an important concept in computer science and related fields, as it highlights the limitations of current algorithms and computing resources. It also motivates the development of new algorithms and computing technologies that can overcome these limitations and tackle increasingly complex problems.
