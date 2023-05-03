@@ -1,0 +1,12 @@
+
+DAG stands for Directed Acyclic Graph, which is a type of data structure used in computer science to represent a collection of objects and the relationships between them. In a DAG, objects are represented as nodes, and the relationships between them are represented as directed edges that point from one node to another.
+
+The application of DAGs is primarily in distributed systems, such as blockchain networks. DAG-based blockchain networks, also known as "blockDAGs," use a DAG data structure to represent the transaction history of the network, rather than a linear chain of blocks like traditional blockchains.
+
+In a blockDAG, each transaction is represented as a node in the DAG, and the edges represent the relationships between transactions. The transactions are linked together based on their dependencies, which means that each transaction can depend on one or more previous transactions, but not on itself or any future transactions.
+
+BlockDAGs have several advantages over traditional blockchains. One of the main advantages is scalability, as transactions can be processed in parallel, rather than being processed one at a time like in traditional blockchains. This can result in faster transaction processing times and lower fees.
+
+Another advantage of blockDAGs is that they are more resistant to certain types of attacks, such as 51% attacks, as they do not rely on a single chain of blocks. Instead, the transactions are validated based on their dependencies, which makes it more difficult for an attacker to create a chain of invalid transactions.
+
+Overall, the application of DAGs in distributed systems, such as blockchain networks, has the potential to improve scalability and security, and to enable new types of decentralized applications. However, there are still challenges to be addressed, such as ensuring consistency and avoiding conflicts in a distributed DAG system.
