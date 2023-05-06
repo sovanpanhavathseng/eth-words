@@ -1,0 +1,10 @@
+
+Eth2, also known as Ethereum 2.0 or Serenity, is a major upgrade to the Ethereum blockchain that aims to improve its scalability, security, and sustainability. Eth2 introduces several new features, including Proof of Stake (PoS) consensus mechanism, shard chains, and a new virtual machine called eWASM.
+
+The main goal of Eth2 is to improve the scalability of the Ethereum network, which has been a major issue since its inception. With the current Proof of Work (PoW) consensus mechanism, the network can only process a limited number of transactions per second, which can lead to high fees and slow transaction times during periods of high network congestion. The new PoS consensus mechanism is designed to be more efficient and sustainable, allowing the network to process more transactions while consuming less energy.
+
+Shard chains are another key feature of Eth2. They are separate chains that can process transactions in parallel, allowing the network to scale horizontally. This means that more transactions can be processed simultaneously, increasing the overall throughput of the network. Each shard chain can process up to 100 transactions per second, and the network can potentially support thousands of shard chains.
+
+Finally, the new eWASM virtual machine is designed to improve the efficiency and flexibility of smart contract execution on the Ethereum network. It is a more modern and powerful virtual machine than the current EVM (Ethereum Virtual Machine), and it is expected to provide better performance and support for more programming languages.
+
+Overall, Eth2 has the potential to significantly improve the scalability, security, and sustainability of the Ethereum network, making it more suitable for a wide range of applications, including decentralized finance (DeFi), gaming, and social media. With these improvements, it is expected to become a more robust and reliable platform for building decentralized applications.
