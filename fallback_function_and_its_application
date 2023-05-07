@@ -1,0 +1,8 @@
+
+In Ethereum, a fallback function is a function that is executed when a contract receives a transaction that does not match any of its defined functions. The fallback function is defined using the fallback keyword in the contract code, and can be used for a variety of purposes.
+
+One common use case for the fallback function is to implement a "payable" function, which allows the contract to receive Ether (the cryptocurrency used on the Ethereum network) without a specific function call. This is useful for accepting donations or payments from users who may not know the specific function they need to call to interact with the contract.
+
+Another use case for the fallback function is to implement a "catch-all" function that can handle any unexpected inputs to the contract. This can be useful for adding additional flexibility and error-handling to a contract.
+
+It's worth noting that in newer versions of Solidity (the programming language used to write Ethereum contracts), the fallback function has been replaced with a "receive" function, which serves a similar purpose but is more explicit in its functionality.
