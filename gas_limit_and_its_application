@@ -1,0 +1,16 @@
+
+In the context of blockchain, "gas limit" refers to the maximum amount of gas that can be used to execute a particular transaction or smart contract on the network. The gas limit is set by the user who initiates the transaction or deploys the smart contract, and it determines the maximum computational resources that can be consumed by the transaction or smart contract.
+
+The gas limit serves several purposes:
+
+It helps to prevent runaway computation by limiting the amount of computational resources that can be consumed by a transaction or smart contract. This helps to prevent congestion and ensure that the network is used efficiently.
+
+It provides a way for users to control the cost of executing a transaction or smart contract. By setting a gas limit, users can ensure that they do not pay more than they are willing to spend for a particular transaction or smart contract.
+
+It ensures that the network remains stable and reliable by preventing excessive use of computational resources.
+
+When a user initiates a transaction or deploys a smart contract on the network, they must specify the gas limit and the gas price (the amount of cryptocurrency they are willing to pay for each unit of gas consumed). The total cost of the transaction or smart contract execution is then determined by multiplying the gas price by the amount of gas consumed.
+
+If the computational requirements of a transaction or smart contract exceed the gas limit specified by the user, the transaction or smart contract will fail and any fees paid will be refunded. This ensures that users are not charged for computational resources that they did not intend to use.
+
+Overall, the gas limit is an important mechanism for controlling the cost and computational resources required for transactions and smart contracts on a blockchain network. It helps to ensure that the network is used efficiently and that users are not charged more than they are willing to pay.
