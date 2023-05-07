@@ -1,0 +1,10 @@
+
+A "Finney" is a unit of measurement for the amount of cryptocurrency transferred in a transaction on the blockchain. It is named after Hal Finney, one of the early pioneers of Bitcoin and the first person to receive a Bitcoin transaction from its creator, Satoshi Nakamoto.
+
+One Finney represents 0.00000001 BTC, or one-tenth of a microbitcoin. It is a very small unit of measurement, and is not commonly used for everyday transactions. Instead, it is often used in the context of measuring the fees associated with Bitcoin transactions.
+
+Bitcoin transactions typically include a small fee paid by the sender to incentivize miners to add the transaction to the blockchain. This fee is usually denominated in satoshis per byte, with higher fees generally resulting in faster confirmation times.
+
+Since a Finney is such a small unit of measurement, it is rarely used in practice for fee calculations. Instead, fees are typically denominated in satoshis or bitcoin (BTC), with users able to choose the fee they are willing to pay based on the urgency of the transaction and the current network congestion.
+
+Overall, the concept of the Finney is an interesting historical artifact that reflects the early days of Bitcoin and the contributions of one of its most prominent early supporters. However, it is not a widely used unit of measurement in the world of cryptocurrency today.
