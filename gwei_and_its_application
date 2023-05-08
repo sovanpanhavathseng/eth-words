@@ -1,0 +1,12 @@
+
+Gwei, short for gigawei, is a unit of measurement for the amount of gas used in Ethereum transactions. Gas refers to the amount of computational effort required to execute a transaction or smart contract on the Ethereum network. Gas is priced in Gwei, which is a subunit of Ether (ETH).
+
+Here are some applications and use cases of Gwei:
+
+Transaction fees: When a user sends a transaction on the Ethereum network, they must specify the amount of gas they are willing to pay for that transaction. The gas price is measured in Gwei, and it determines the priority of the transaction. Higher gas prices result in faster transaction processing times, while lower gas prices may take longer to confirm.
+
+Smart contract execution: Smart contracts on the Ethereum network also require gas to execute. The gas price is again measured in Gwei, and it determines the cost of executing the smart contract. Smart contract developers need to consider the gas cost when designing their contracts to ensure they are efficient and cost-effective.
+
+Miner rewards: Miners on the Ethereum network receive a portion of the gas fees paid by users for their transactions. As gas is priced in Gwei, this means that miners are rewarded in Gwei for their work in validating and processing transactions.
+
+Overall, Gwei is an important unit of measurement in the Ethereum network, as it is used to price gas for transactions and smart contract execution. It plays a critical role in determining the efficiency and cost-effectiveness of the network, and it is an essential consideration for users and developers alike.
