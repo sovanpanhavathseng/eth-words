@@ -1,0 +1,14 @@
+
+A hard fork is a type of update to a blockchain protocol that is not backward compatible with the previous version. This means that nodes that have not upgraded to the new version will not be able to validate transactions or interact with nodes that have upgraded. A hard fork results in a permanent divergence in the blockchain, creating two separate networks.
+
+Here are some of the applications and use cases of hard forks:
+
+Protocol upgrades: Hard forks are often used to implement significant upgrades to the blockchain protocol, such as changes to the consensus mechanism or improvements to the security and scalability of the network. These upgrades require a hard fork to ensure that all nodes are running the latest version of the protocol.
+
+Governance changes: Hard forks can also be used to implement changes to the governance structure of the blockchain. For example, a hard fork could be used to change the block reward, adjust the transaction fees, or modify the distribution of tokens.
+
+Community disagreement: Sometimes, a hard fork occurs due to a disagreement within the community about the direction of the blockchain. In this case, one group of nodes may decide to create a new blockchain with different rules and features, leading to a hard fork.
+
+Token creation: A hard fork can also be used to create a new token on the blockchain. For example, the Ethereum hard fork that created Ethereum Classic also resulted in the creation of a new token called Ether Classic (ETC).
+
+Overall, hard forks are an important tool for upgrading and improving blockchain protocols, as well as for implementing changes to the governance structure and token distribution. However, hard forks can also be contentious and lead to a permanent split in the community, so they should be carefully considered and implemented with caution.
