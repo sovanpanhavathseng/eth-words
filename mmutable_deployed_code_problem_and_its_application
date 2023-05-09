@@ -1,0 +1,14 @@
+
+The problem of immutable deployed code refers to the challenge of updating software that has been deployed to production and ensuring that the changes are properly tested and integrated without disrupting existing functionality. When code is deployed to production, it becomes difficult to make changes without introducing new bugs or breaking existing functionality.
+
+There are several approaches to addressing this problem, including:
+
+Continuous Deployment: Continuous deployment is a software development practice where changes to code are automatically tested and deployed to production. This approach minimizes the risk of deploying code that is not properly tested or validated, and ensures that changes are deployed quickly and efficiently.
+
+Canary Deployment: Canary deployment is a technique where changes are deployed to a small subset of users or servers before being rolled out to the entire system. This approach allows developers to test changes in a controlled environment, identify and fix issues before they affect the entire system, and minimize the risk of deployment errors.
+
+Blue-Green Deployment: Blue-green deployment is a technique where two identical production environments are maintained, one active (blue) and the other inactive (green). Changes are made to the inactive environment, which is then tested and validated before switching traffic from the active environment to the updated green environment. This approach minimizes downtime and risk during deployment.
+
+Immutable Infrastructure: Immutable infrastructure is an approach to deploying software where infrastructure is treated as disposable, and changes are made by deploying new instances rather than modifying existing ones. This approach minimizes the risk of configuration drift and makes it easier to manage complex systems by ensuring that each instance is identical and predictable.
+
+The problem of immutable deployed code has implications across a wide range of software applications, including web applications, mobile apps, and enterprise software. By using best practices for deployment and testing, developers can minimize the risk of introducing bugs and breaking existing functionality, while still maintaining a rapid pace of development and deployment.
