@@ -1,0 +1,16 @@
+
+A key derivation function (KDF) is a cryptographic function that takes an input key and derives one or more new keys from it. KDFs are commonly used in cryptography for key management, where they allow a user to derive multiple keys from a single master key, without having to store all the keys separately.
+
+KDFs have several applications in cryptography, including:
+
+Password Hashing: KDFs can be used to generate a secure hash of a user's password, which can then be used for authentication purposes. This is commonly used in systems where user passwords are stored in a database, as it allows the system to store a secure hash of the password rather than the password itself.
+
+Key Exchange: KDFs can be used in key exchange protocols, where two parties want to establish a shared secret key over an insecure communication channel. KDFs can be used to derive a shared key from the parties' public keys, without having to transmit the key itself over the channel.
+
+Encryption Key Derivation: KDFs can be used to derive encryption keys from a master key, which can then be used to encrypt or decrypt data. This is commonly used in systems where data needs to be encrypted and stored securely, such as in cloud storage systems or backup services.
+
+Message Authentication: KDFs can be used to derive keys for message authentication codes (MACs), which are used to verify the integrity of messages. By using a KDF to derive keys for MACs, a system can ensure that the keys are unique and not reused across multiple messages, improving the security of the system.
+
+Deriving Multiple Keys from a Master Key: KDFs can be used to derive multiple keys from a single master key, which can be useful in scenarios where multiple keys are needed for different purposes. For example, a KDF could be used to derive a set of keys for data encryption, another set of keys for message authentication, and a third set of keys for digital signatures.
+
+Overall, key derivation functions are an important cryptographic tool that enable users to derive multiple keys from a single master key, without having to store all the keys separately. KDFs have a wide range of applications in cryptography, including password hashing, key exchange, encryption key derivation, message authentication, and deriving multiple keys from a master key.
