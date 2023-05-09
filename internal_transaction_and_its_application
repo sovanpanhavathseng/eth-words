@@ -1,0 +1,14 @@
+
+Internal transactions refer to transactions that occur within a blockchain network between two or more addresses that belong to the same user or entity. These transactions are recorded on the blockchain and are visible to other network participants, but do not involve the transfer of assets to external parties.
+
+Internal transactions are an important feature of blockchain networks, and have several applications:
+
+Smart Contract Execution: Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. Smart contracts are executed automatically by the blockchain network when certain conditions are met. Internal transactions are used in the execution of smart contracts to transfer assets between different functions within the contract.
+
+Payment Settlement: Internal transactions can be used to settle payments between different addresses belonging to the same user. This can be useful in situations where a user needs to transfer funds between different wallets or accounts within a blockchain network.
+
+Decentralized Applications (dApps): Decentralized applications are built on top of blockchain networks and are designed to be transparent, secure, and trustless. Internal transactions are used in dApps to transfer assets between different functions or modules within the application, or to manage state changes within the application.
+
+Blockchain Governance: Internal transactions can also be used in blockchain governance, where token holders can vote on proposals and decisions related to the network. These transactions can be used to transfer voting rights between different addresses belonging to the same user or entity, and can also be used to execute voting contracts or smart contracts related to governance.
+
+Overall, internal transactions are an important feature of blockchain networks that allow for the transfer of assets and execution of contracts between different addresses belonging to the same user or entity. They have several applications in areas such as smart contract execution, payment settlement, dApps, and blockchain governance.
