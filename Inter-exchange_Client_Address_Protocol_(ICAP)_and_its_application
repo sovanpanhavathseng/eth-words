@@ -1,0 +1,16 @@
+
+The Inter-exchange Client Address Protocol (ICAP) is a network protocol used for communication between financial institutions and their clients. ICAP was developed to standardize the process of sending and receiving financial data and is commonly used in trading environments.
+
+ICAP operates at the application layer of the OSI model and is designed to be platform-independent. The protocol allows clients to access and trade financial instruments across multiple exchanges and provides a way for institutions to access pricing information from different sources.
+
+ICAP is used in a variety of financial applications, including:
+
+Electronic Trading: ICAP is used by electronic trading platforms to allow clients to connect to multiple exchanges and access real-time pricing information. This enables traders to make informed decisions about buying and selling financial instruments.
+
+Risk Management: ICAP is used in risk management systems to provide accurate pricing data that can be used to calculate risk exposure. This helps institutions manage their risk more effectively by providing them with real-time pricing information.
+
+Post-Trade Processing: ICAP is used in post-trade processing systems to validate trades and ensure that they are settled correctly. The protocol can be used to confirm the details of a trade and ensure that the settlement process is completed accurately.
+
+Analytics: ICAP can be used to collect market data and analyze it for trends and patterns. This information can be used by institutions to make informed decisions about future trading strategies.
+
+Overall, ICAP is a critical component of the financial infrastructure, providing a standard protocol for communication between financial institutions and their clients. The protocol allows for efficient trading, risk management, post-trade processing, and analytics, making it an essential tool for the financial industry.
