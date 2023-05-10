@@ -1,0 +1,14 @@
+
+In the context of computer networking, layer 2 refers to the data link layer of the OSI (Open Systems Interconnection) model. The data link layer is responsible for transferring data between adjacent network nodes over a physical or logical link, and for detecting and correcting errors that may occur during transmission.
+
+Some of the main applications of layer 2 technologies include:
+
+Ethernet: Ethernet is a widely used layer 2 technology that provides a standard way of connecting devices on a network. Ethernet uses MAC (Media Access Control) addresses to identify devices and to ensure that data is delivered to the correct destination.
+
+Wi-Fi: Wi-Fi is a layer 2 wireless technology that allows devices to connect to a network without the need for physical cables. Wi-Fi uses radio waves to transmit data between devices and access points.
+
+VLANs: VLANs (Virtual Local Area Networks) are a way of dividing a physical network into multiple logical networks. Each VLAN is treated as a separate network, allowing for better network management and security.
+
+Switching: Switching is a layer 2 technology that is used to forward data between devices on a network. Switches use MAC addresses to determine the best path for data to take between devices, improving network performance and reducing congestion.
+
+Overall, layer 2 technologies play a crucial role in enabling communication between devices on a network, and in ensuring that data is transmitted reliably and efficiently.
