@@ -1,0 +1,14 @@
+
+Memory-hard is a term used in the field of cryptography and computer science to describe algorithms and protocols that are designed to require a significant amount of memory (RAM) to perform computational tasks. The goal of memory-hardness is to create computational puzzles that are difficult for specialized hardware such as ASICs (Application-Specific Integrated Circuits) to solve, and thus make the computational puzzle more resistant to brute-force attacks.
+
+Some of the main applications of memory-hard algorithms and protocols include:
+
+Password hashing: Memory-hard algorithms are used in password hashing to create secure and resistant passwords. These algorithms require a significant amount of memory to hash a password, making it difficult for attackers to generate a large number of candidate passwords and perform brute-force attacks.
+
+Proof-of-work (PoW) algorithms: Memory-hard algorithms are also used in PoW protocols, such as Ethereum's Ethash algorithm, which requires a significant amount of memory to perform computational tasks. This makes it difficult for miners to use specialized hardware to gain an unfair advantage in mining new blocks and potentially control the network.
+
+Privacy-preserving protocols: Memory-hard protocols can also be used in privacy-preserving protocols, such as zero-knowledge proofs, where large amounts of memory are used to store intermediate values to protect the privacy of the participants.
+
+Machine learning: Memory-hard algorithms are also used in machine learning applications to create models that require a significant amount of memory to train. This makes it difficult for attackers to perform adversarial attacks by modifying the data in the training set.
+
+Overall, memory-hard algorithms and protocols are a useful tool for creating computational puzzles that are resistant to brute-force attacks, and can be applied in various applications, from password hashing to privacy-preserving protocols and machine learning.
