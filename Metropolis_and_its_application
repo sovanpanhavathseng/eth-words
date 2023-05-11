@@ -1,0 +1,10 @@
+
+Metropolis is a widely used algorithm in computational physics and statistical mechanics for generating samples from a probability distribution. It is particularly useful when the probability distribution cannot be easily sampled from directly.
+
+The Metropolis algorithm works by proposing a new state in the space of interest, and then accepting or rejecting this new state based on a probability. The probability of accepting the new state is based on the ratio of the probability of the new state to the probability of the current state. This probability ratio is often referred to as the acceptance ratio.
+
+The Metropolis algorithm is often used in the context of Markov Chain Monte Carlo (MCMC) methods, which are used for simulating complex systems in statistical physics, Bayesian statistics, and machine learning, among other fields. By using the Metropolis algorithm to generate new states in a Markov chain, the chain eventually converges to the target distribution of interest.
+
+One of the most well-known applications of the Metropolis algorithm is in simulating the Ising model, which is a simple model of ferromagnetism. The Ising model consists of a lattice of spins, where each spin can be in one of two possible states, up or down. The Metropolis algorithm is used to simulate the behavior of this system by proposing new states of the system, and accepting or rejecting these proposals based on the energy of the new state relative to the current state.
+
+Other applications of the Metropolis algorithm include the simulation of polymers, fluids, and chemical reactions, as well as in Bayesian inference, where it is used to sample from the posterior distribution of a model given data.
