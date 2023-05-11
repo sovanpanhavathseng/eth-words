@@ -1,0 +1,14 @@
+
+In the context of blockchain technology, an ommer block (or uncle block) is a valid block that is not part of the main blockchain, typically because it was mined at the same time as another valid block. The term "ommer" is short for "ominous block," and refers to the fact that these blocks are not included in the main chain and are therefore less rewarding for miners.
+
+The application of ommer blocks is related to the concept of blockchains and mining rewards. In a blockchain network, miners compete to solve a cryptographic puzzle in order to create a new block that will be added to the blockchain. When two or more miners solve the puzzle at the same time, they create competing blocks, which are propagated through the network. Only one of these blocks can be included in the blockchain, and the other(s) become ommer blocks.
+
+Ommer blocks have a number of applications in the blockchain ecosystem, including:
+
+Incentivizing miners: Ommer blocks are still valuable to miners, as they receive a smaller reward for contributing to the network and solving the cryptographic puzzle, even if their block is not included in the main blockchain.
+
+Reducing the impact of network latency: Ommer blocks help to reduce the impact of network latency, as they provide a mechanism for miners who are geographically distant from each other to still contribute to the network and receive rewards.
+
+Enhancing network security: Ommer blocks help to enhance network security by encouraging miners to continue contributing to the network, even if their block is not included in the main chain.
+
+Overall, ommer blocks are an important part of the blockchain ecosystem, as they help to incentivize miners, reduce network latency, and enhance network security.
