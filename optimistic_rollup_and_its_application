@@ -1,0 +1,14 @@
+
+Optimistic rollup is a scaling solution for blockchain networks that allows for faster and more efficient transaction processing by performing most transactions off-chain and only submitting a small proof of the transaction to the blockchain. This is achieved by making optimistic assumptions about the validity of transactions, which are later verified on-chain if necessary. The term "rollup" refers to the fact that multiple transactions can be bundled together and processed as a single transaction on the blockchain.
+
+The application of optimistic rollup is to improve the scalability and efficiency of blockchain networks, particularly those with high transaction volumes, by allowing for faster and cheaper transactions. Some specific applications of optimistic rollup include:
+
+Decentralized finance (DeFi): Optimistic rollup can be used in DeFi applications to improve the speed and efficiency of transactions, which can be critical in fast-paced trading environments.
+
+Gaming and digital collectibles: Optimistic rollup can be used in gaming and digital collectibles applications to allow for faster and cheaper transactions related to in-game items and other assets.
+
+Supply chain management: Optimistic rollup can be used in supply chain management applications to improve the efficiency of transactions related to the tracking and transfer of goods and assets.
+
+Identity management: Optimistic rollup can be used in identity management applications to allow for faster and more efficient verification of identity-related transactions.
+
+Overall, optimistic rollup is a promising technology for improving the scalability and efficiency of blockchain networks, and has a wide range of potential applications in various industries and use cases.
