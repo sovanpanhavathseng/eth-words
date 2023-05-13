@@ -1,0 +1,8 @@
+
+A re-entrancy attack is a type of vulnerability that occurs when a contract or program can be called repeatedly within the same execution context before the previous execution is completed. This allows an attacker to exploit the program's logic and potentially manipulate its state or steal funds.
+
+Here's a concise explanation of the attack and its application:
+
+Re-entrancy attack: In a re-entrancy attack, an attacker exploits a vulnerable contract by repeatedly calling it before the previous call completes. This can create unexpected behaviors and enable the attacker to perform undesired actions.
+
+Application: The most common application of a re-entrancy attack is in the context of smart contracts on blockchain platforms, such as Ethereum. By exploiting re-entrancy vulnerabilities, attackers can manipulate the contract's state and gain unauthorized access to funds or assets stored within the contract. This attack has been used in several high-profile incidents in the past, resulting in significant financial losses.
