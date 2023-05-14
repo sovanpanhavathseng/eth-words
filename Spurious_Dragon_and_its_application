@@ -1,0 +1,12 @@
+
+Spurious Dragon is the name of a hard fork that occurred on the Ethereum blockchain in November 2016. It was one of the planned upgrades as part of Ethereum's series of hard forks aimed at improving the network's security, performance, and functionality. The Spurious Dragon hard fork introduced several protocol changes and enhancements to the Ethereum network. Some of its notable applications and effects include:
+
+Gas Cost Reduction: The Spurious Dragon hard fork reduced the gas costs for several operations on the Ethereum Virtual Machine (EVM). This included optimizations for certain types of operations and data storage, making smart contract execution more cost-effective for developers and users.
+
+Security Improvements: The hard fork addressed security vulnerabilities in the Ethereum protocol. It introduced changes to mitigate potential attacks, including addressing vulnerabilities related to the DAO (Decentralized Autonomous Organization) exploit that occurred earlier in 2016.
+
+Enhanced Network Stability: The Spurious Dragon hard fork aimed to improve network stability by fixing issues related to blockchain consensus and network synchronization. These improvements were aimed at reducing the occurrence of network forks and ensuring a more reliable and consistent Ethereum network.
+
+Continued Blockchain Compatibility: The Spurious Dragon hard fork was designed to be backward-compatible, meaning that it did not result in a permanent divergence in the Ethereum blockchain. Existing smart contracts and applications continued to function without interruption, while benefiting from the protocol enhancements introduced by the fork.
+
+Overall, the Spurious Dragon hard fork contributed to the ongoing development and improvement of the Ethereum network. It addressed security vulnerabilities, improved gas cost efficiency, and enhanced network stability, aiming to provide a more robust and reliable platform for decentralized applications and smart contracts built on Ethereum.
