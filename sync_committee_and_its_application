@@ -1,0 +1,14 @@
+
+A sync committee is a component of the Ethereum 2.0 (Eth2) blockchain network, specifically in the beacon chain. It consists of a group of validators whose role is to collectively propose and attest to the validity of blocks in the Eth2 network. The sync committee plays a crucial role in the consensus mechanism and security of the network. The application of sync committees in Ethereum 2.0 includes:
+
+Block proposal and attestation: The sync committee is responsible for proposing and attesting to the validity of blocks in the beacon chain. They gather and aggregate signatures from validators to form a sync committee signature, which serves as proof that the proposed block is valid and agreed upon by the committee.
+
+Fork choice rule: Sync committee signatures are used in the fork choice rule of Ethereum 2.0. The fork choice rule determines the canonical chain and helps maintain consensus in the network. By including the sync committee signatures in the fork choice rule, the network ensures that blocks proposed and attested by a majority of the committee have a higher chance of being accepted and becoming part of the canonical chain.
+
+Beacon chain finality: The sync committee plays a role in the finality process of the beacon chain. Finality refers to the irreversible confirmation of blocks and the consensus on their validity. The sync committee's collective signatures contribute to the finality of blocks in the beacon chain, providing a more secure and robust consensus mechanism.
+
+Security against certain attacks: The sync committee helps enhance the security of Ethereum 2.0 against specific types of attacks, such as long-range attacks and chain reorganizations. The collective agreement and signature of the sync committee make it more difficult for attackers to manipulate or revert blocks in the beacon chain, thus increasing the overall security of the network.
+
+Shard chain coordination: In Ethereum 2.0, the network consists of multiple shard chains in addition to the beacon chain. The sync committee aids in coordinating the crosslinks between shard chains and the beacon chain. Crosslinks are references to the shard chain's latest state that are included in the beacon chain. The sync committee's attestations contribute to the consensus on the validity and inclusion of crosslinks in the beacon chain.
+
+Overall, sync committees in Ethereum 2.0 play a critical role in proposing and attesting to the validity of blocks, enhancing the security and finality of the network, and facilitating coordination between shard chains and the beacon chain. They are an integral part of the consensus mechanism and the overall functioning of Ethereum 2.0.
