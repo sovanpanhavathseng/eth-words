@@ -1,0 +1,20 @@
+Wei is the smallest denomination of ether, the cryptocurrency used on the Ethereum network. One ether is equal to 1,000,000,000,000,000,000 wei (10^18). This means that the smallest possible transaction on Ethereum is 1 wei.
+
+Wei is named after Wei Dai, the creator of the bitcoin predecessor "b-money" and the developer of the Crypto++ library.
+
+Wei is used to pay for computation and storage on the Ethereum network. When a user sends a transaction, they must specify the amount of wei they are willing to pay for the transaction to be processed. The network then selects miners to process the transaction, and the miners are rewarded with the wei specified by the sender.
+
+Wei can also be used to pay for smart contracts. Smart contracts are self-executing contracts that are stored on the Ethereum blockchain. When a smart contract is executed, it consumes wei from the accounts of the parties involved in the contract.
+
+Wei is a very small unit of currency, but it is essential for the functioning of the Ethereum network. It allows users to pay for computation and storage on the network, and it is used to pay for smart contracts.
+
+Here are some of the applications of wei:
+
+* Paying for computation and storage on the Ethereum network
+* Paying for smart contracts
+* Staking ether to secure the Ethereum network
+* Voting on proposals for changes to the Ethereum network
+* Tipping other users on the Ethereum network
+* Buying and selling goods and services on decentralized applications (dApps)
+
+Wei is a very versatile unit of currency that can be used for a variety of purposes on the Ethereum network. As the Ethereum network continues to grow and develop, wei is likely to become even more important.
