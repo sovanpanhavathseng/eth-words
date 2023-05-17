@@ -1,0 +1,22 @@
+A zero-knowledge rollup (ZK-rollup) is a layer-2 scaling solution that uses zero-knowledge proofs to verify the validity of transactions off-chain. This allows ZK-rollups to achieve high throughput and low gas fees, while still maintaining the security of the underlying blockchain.
+
+ZK-rollups work by batching together a large number of transactions and then executing them off-chain. The results of these transactions are then submitted to the blockchain as a single transaction, along with a zero-knowledge proof that proves the validity of the results.
+
+Zero-knowledge proofs are a cryptographic technique that allows one party to prove to another party that they know a value, without revealing any information about the value itself. In the context of ZK-rollups, this means that the prover (the ZK-rollup operator) can prove to the verifier (the blockchain) that the results of the batched transactions are valid, without revealing any information about the individual transactions themselves.
+
+ZK-rollups are one of the most promising layer-2 scaling solutions for Ethereum. They offer a number of advantages over other layer-2 scaling solutions, including:
+
+* High throughput: ZK-rollups can process thousands of transactions per second, significantly higher than the throughput of the Ethereum mainnet.
+* Low gas fees: ZK-rollups can achieve significantly lower gas fees than the Ethereum mainnet, making them more affordable for users.
+* Security: ZK-rollups are just as secure as the Ethereum mainnet, as they are ultimately secured by the same underlying blockchain.
+
+ZK-rollups are already being used by a number of DeFi applications, including Uniswap, Synthetix, and Loopring. As ZK-rollup technology continues to develop, it is likely to be used by even more applications in the future.
+
+Here are some of the applications of zero-knowledge rollups:
+
+* **Decentralized finance (DeFi):** ZK-rollups can be used to improve the scalability and efficiency of DeFi applications. For example, ZK-rollups can be used to allow users to trade cryptocurrencies and DeFi tokens with low fees and high throughput.
+* **Non-fungible tokens (NFTs):** ZK-rollups can be used to improve the scalability and efficiency of NFT marketplaces. For example, ZK-rollups can be used to allow users to mint, buy, and sell NFTs with low fees and high throughput.
+* **Gaming:** ZK-rollups can be used to improve the scalability and efficiency of blockchain-based games. For example, ZK-rollups can be used to allow users to play games with low fees and high throughput.
+* **Web3:** ZK-rollups can be used to improve the scalability and efficiency of Web3 applications. For example, ZK-rollups can be used to allow users to access decentralized applications with low fees and high throughput.
+
+Overall, zero-knowledge rollups are a promising technology that has the potential to improve the scalability, efficiency, and security of a wide range of blockchain applications.
