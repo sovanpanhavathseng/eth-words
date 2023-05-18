@@ -1,0 +1,20 @@
+Attestation is a process of verifying the state of a system or device. It is used to ensure that the system or device is in a known and trusted state. Attestation can be used to verify the identity of a system or device, to verify the integrity of the software running on the system or device, or to verify the security posture of the system or device.
+
+There are two main types of attestation: active and passive. Active attestation is a process where the system or device actively provides information about its state to a verifier. Passive attestation is a process where the verifier collects information about the state of the system or device without the system or device being aware of it.
+
+There are a number of different technologies that can be used for attestation. Some of the most common technologies include:
+
+* Trusted Platform Module (TPM): A TPM is a hardware security module that can be used to store cryptographic keys and to verify the integrity of software.
+* Secure Boot: Secure Boot is a security feature that can be used to verify the integrity of the firmware on a system.
+* Measured Boot: Measured Boot is a security feature that can be used to verify the integrity of the software that is loaded during the boot process.
+* Runtime Verification: Runtime Verification is a technique that can be used to verify the state of a system or device at runtime.
+
+Attestation is a valuable security tool that can be used to protect systems and devices from a variety of threats. By verifying the state of a system or device, attestation can help to ensure that the system or device is in a known and trusted state. This can help to prevent attacks and to protect sensitive data.
+
+Here are some examples of how attestation can be used:
+
+* A company can use attestation to verify the identity of its employees before they are allowed to access sensitive data.
+* A bank can use attestation to verify the integrity of its software before it is deployed in production.
+* A government agency can use attestation to verify the security posture of its systems before they are connected to the internet.
+
+Attestation is a powerful tool that can be used to improve the security of systems and devices. By using attestation, organizations can help to protect their data and systems from a variety of threats.
