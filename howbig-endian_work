@@ -1,0 +1,23 @@
+Big-endian is a way of storing multibyte data-types ( int, float, etc). In big-endian machines, the most significant byte of the binary representation of the multibyte data-type is stored first. On the other hand, in little-endian machines, the least significant byte is stored first.
+
+For example, the number 12345678 in binary is 0x00000000 0x00000000 0x00000000 0x78563412. In a big-endian machine, this number would be stored as follows:
+
+* Byte 0: 0x78
+* Byte 1: 0x56
+* Byte 2: 0x34
+* Byte 3: 0x12
+
+In a little-endian machine, this number would be stored as follows:
+
+* Byte 0: 0x12
+* Byte 1: 0x34
+* Byte 2: 0x56
+* Byte 3: 0x78
+
+The choice of big-endian or little-endian is an implementation detail of the computer architecture. There is no right or wrong answer, and both systems are used in practice.
+
+Big-endian is the most common endianness for networking protocols, such as in the Internet protocol suite, where it is referred to as network order, transmitting the most significant byte first. Little-endian is the most common endianness for microprocessors, such as the x86 and ARM architectures.
+
+Endianness can be a source of compatibility problems when data is transferred between systems with different endianness. For example, if a big-endian system sends a number to a little-endian system, the little-endian system will interpret the number incorrectly.
+
+To avoid compatibility problems, it is important to be aware of the endianness of the systems involved when transferring data. In some cases, it may be necessary to convert the endianness of the data before it is transferred.
