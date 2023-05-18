@@ -1,0 +1,17 @@
+The base fee is a new mechanism for calculating transaction fees on the Ethereum blockchain. It was introduced as part of the EIP-1559 upgrade, which was implemented in August 2021.
+
+The base fee is calculated by a formula that takes into account the size of the previous block and the target block size. The target block size is 15 million gas, and the base fee is calculated to ensure that the blocks are filled to 50% capacity.
+
+The base fee is burned, which means that it is removed from circulation and added to the Ethereum supply. This helps to reduce the overall supply of ETH, which can help to increase the price of ETH.
+
+The base fee has a number of benefits over the previous system of calculating transaction fees. First, it makes transaction fees more predictable. Second, it reduces the volatility of transaction fees. Third, it helps to ensure that the Ethereum network is not congested.
+
+Here is how the base fee works in more detail:
+
+1. The Ethereum network calculates the base fee for the next block.
+2. Miners include transactions in their blocks if the offered gas price is at least equal to the base fee.
+3. Users specify a gas price when they send a transaction.
+4. If the user's gas price is less than the base fee, the transaction will not be included in a block.
+5. The base fee is burned when a block is mined.
+
+The base fee is a significant improvement over the previous system of calculating transaction fees. It makes transaction fees more predictable, reduces the volatility of transaction fees, and helps to ensure that the Ethereum network is not congested.
