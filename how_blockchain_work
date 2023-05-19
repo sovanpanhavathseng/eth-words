@@ -1,0 +1,22 @@
+A blockchain is a distributed database that is shared across a network of computers. Each block in the chain contains a number of transactions, and every time a new transaction occurs on the blockchain, a record of that transaction is added to every participant's ledger. The decentralized database managed by multiple participants is known as Distributed Ledger Technology (DLT). Blockchain is a type of DLT in which transactions are recorded with an immutable cryptographic signature called a hash.
+
+Here are the steps on how blockchain works:
+
+1. A transaction is submitted to the blockchain network.
+2. The transaction is verified by nodes on the network.
+3. The transaction is added to a block.
+4. The block is mined and added to the blockchain.
+5. The transaction is complete.
+
+The blockchain is secured by cryptography. Each block contains a hash of the previous block, which means that if any data in a block is changed, the hash will be invalid and the block will be rejected. This makes it very difficult to tamper with data on the blockchain.
+
+The blockchain is also transparent. Anyone can view the blockchain and see all of the transactions that have been made. This makes it a very secure and transparent way to store data.
+
+Blockchain technology has a number of potential applications, including:
+
+* **Financial transactions:** Blockchain can be used to record financial transactions, such as payments and investments. This can help to reduce fraud and make financial transactions more secure.
+* **Supply chain management:** Blockchain can be used to track the movement of goods through a supply chain. This can help to improve efficiency and transparency in the supply chain.
+* **Healthcare:** Blockchain can be used to store and share medical records. This can help to improve patient care and make healthcare more efficient.
+* **Government:** Blockchain can be used to store and share government records. This can help to improve transparency and efficiency in government.
+
+Blockchain is a powerful technology with a wide range of potential applications. It is still in its early stages of development, but it has the potential to revolutionize many industries.
