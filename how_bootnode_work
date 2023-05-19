@@ -1,0 +1,15 @@
+A bootnode is a node that is always connected to the network and can be used by other nodes to find peers. Bootnodes are typically run by the network's devops team or client teams themselves.
+
+When a new node joins the network, it needs to connect to at least one other node in order to then discover new peers. These entry points into the Ethereum network are called bootnodes. Clients usually have a list of bootnodes hardcoded into them.
+
+To connect to a bootnode, a node will send a UDP packet to the bootnode's IP address and port number. The bootnode will then respond with a list of other nodes that are connected to the network. The node can then connect to these other nodes and start exchanging information.
+
+Bootnodes are a valuable tool for bootstrapping new nodes onto the network. They help to ensure that new nodes can quickly find peers and start participating in the network.
+
+Here are some of the benefits of using bootnodes:
+
+* They help to ensure that new nodes can quickly find peers and start participating in the network.
+* They can help to reduce the load on the network by directing new nodes to less congested areas.
+* They can help to improve the security of the network by making it more difficult for malicious actors to attack new nodes.
+
+Bootnodes are an important part of the Ethereum network. They help to ensure that the network is accessible and secure for all users.
