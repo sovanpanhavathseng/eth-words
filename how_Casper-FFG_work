@@ -1,0 +1,15 @@
+Casper-FFG, or Casper Friendly Finality Gadget, is a hybrid proof-of-stake (PoS) consensus mechanism that is being developed for the Ethereum blockchain. It is designed to be a more energy-efficient and scalable alternative to the current proof-of-work (PoW) consensus mechanism.
+
+Casper-FFG works by having a small number of validators, who are selected randomly, propose blocks to the network. These blocks are then voted on by all of the validators, and the block with the most votes is finalized.
+
+Validators are incentivized to participate in the consensus process by being rewarded with Ether. The amount of Ether that a validator is rewarded with is proportional to the number of blocks that they propose and the number of votes that their blocks receive.
+
+Casper-FFG is still under development, but it is expected to be implemented on the Ethereum blockchain in the near future. It is hoped that Casper-FFG will help to make Ethereum more scalable, secure, and energy-efficient.
+
+Here are some of the benefits of Casper-FFG:
+
+* **Scalability:** Casper-FFG is designed to be more scalable than PoW. This is because it does not require miners to compete for the right to create blocks. Instead, blocks are proposed by a small number of validators, which reduces the amount of computational power that is required to secure the network.
+* **Security:** Casper-FFG is designed to be more secure than PoW. This is because it does not rely on the computational power of miners to secure the network. Instead, it relies on the economic incentives of validators. This makes it more difficult for malicious actors to attack the network.
+* **Energy efficiency:** Casper-FFG is designed to be more energy-efficient than PoW. This is because it does not require miners to compete for the right to create blocks. Instead, blocks are proposed by a small number of validators, which reduces the amount of energy that is required to secure the network.
+
+Casper-FFG is a promising new consensus mechanism that has the potential to make Ethereum more scalable, secure, and energy-efficient. It is still under development, but it is expected to be implemented on the Ethereum blockchain in the near future.
