@@ -1,0 +1,15 @@
+Computational infeasibility is a term used to describe a problem that is too difficult to solve using a computer in a reasonable amount of time. This can happen for a number of reasons, such as the problem being too large or complex, or the problem being inherently difficult to solve.
+
+There are a number of ways to determine whether a problem is computationally infeasible. One way is to use a technique called "proof by contradiction." In proof by contradiction, you assume that the problem is solvable, and then you show that this leads to a contradiction. If you can show that the assumption leads to a contradiction, then you have shown that the problem is unsolvable.
+
+Another way to determine whether a problem is computationally infeasible is to use a technique called "computational complexity theory." Computational complexity theory is a branch of mathematics that studies the difficulty of solving problems. There are a number of different complexity classes, each of which represents a different level of difficulty. For example, the class P represents problems that can be solved in polynomial time, while the class NP represents problems that can be verified in polynomial time.
+
+If a problem is in the class NP, then it is possible that there is an algorithm that can solve the problem in polynomial time. However, it is also possible that there is no such algorithm, and that the problem is computationally infeasible.
+
+There are a number of problems that are known to be computationally infeasible. For example, the traveling salesman problem is a problem that asks you to find the shortest possible route that visits a given set of cities. The traveling salesman problem is known to be NP-complete, which means that it is at least as difficult as any problem in the class NP.
+
+Another example of a computationally infeasible problem is the integer factorization problem. The integer factorization problem asks you to factor a given integer into its prime factors. The integer factorization problem is also known to be NP-complete.
+
+Computational infeasibility can have a number of implications. For example, it means that there are some problems that cannot be solved using a computer, no matter how powerful the computer is. This can be frustrating for people who are trying to solve these problems, but it is important to remember that computational infeasibility is a fundamental limitation of computers.
+
+Despite the limitations of computers, there are still a number of problems that can be solved using computers. For example, computers can be used to solve problems that are in the class P. Computers can also be used to approximate solutions to problems that are in the class NP. In some cases, these approximations may be good enough for practical purposes.
