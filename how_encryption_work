@@ -1,0 +1,30 @@
+Encryption is the process of converting data into a form that cannot be easily read by unauthorized people. This is done by using a key, which is a piece of information that is used to encrypt and decrypt the data.
+
+There are two main types of encryption: symmetric encryption and asymmetric encryption.
+
+**Symmetric encryption** uses the same key to encrypt and decrypt the data. This type of encryption is typically faster than asymmetric encryption, but it is also less secure.
+
+**Asymmetric encryption** uses two different keys: a public key and a private key. The public key is made public, while the private key is kept secret. This type of encryption is typically slower than symmetric encryption, but it is also more secure.
+
+Here is an overview of how symmetric encryption works:
+
+1. The sender and receiver agree on a key.
+2. The sender uses the key to encrypt the data.
+3. The encrypted data is sent to the receiver.
+4. The receiver uses the key to decrypt the data.
+
+Here is an overview of how asymmetric encryption works:
+
+1. The sender generates a public/private key pair. The public key is made public, while the private key is kept secret.
+2. The sender uses their private key to encrypt the data.
+3. The encrypted data is sent to the receiver.
+4. The receiver uses the sender's public key to decrypt the data.
+
+Encryption is used in a wide variety of applications, including:
+
+* **Email:** Email is typically encrypted using asymmetric encryption. This ensures that only the intended recipient can read the email.
+* **File sharing:** File sharing services typically use symmetric encryption to encrypt files before they are shared. This ensures that only the intended recipients can access the files.
+* **Online banking:** Online banking applications typically use asymmetric encryption to encrypt sensitive information, such as credit card numbers and passwords. This ensures that this information cannot be intercepted by unauthorized people.
+* **Government and military applications:** Encryption is used in a wide variety of government and military applications, such as secure communications and data storage.
+
+Encryption is a powerful tool that can be used to protect sensitive information. It is used in a wide variety of applications, and is considered to be an essential part of information security.
