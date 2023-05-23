@@ -1,0 +1,17 @@
+The execution layer, also known as the computation layer, is the part of a blockchain that handles the execution of transactions. It is responsible for taking the input data from a transaction, applying the relevant logic, and updating the blockchain's state accordingly.
+
+The execution layer is typically implemented as a smart contract platform. Smart contracts are self-executing contracts that are stored on the blockchain and can be accessed by anyone. They are written in a programming language that is specific to the blockchain platform, and they can be used to implement a wide variety of applications.
+
+The execution layer is a critical part of any blockchain network. It is responsible for ensuring that the blockchain is secure and that transactions are processed in a fair and transparent manner. The execution layer also plays a role in the scalability of the blockchain network. By enabling the execution of transactions off-chain, the execution layer can help to reduce the load on the network and improve its performance.
+
+Here are some of the key features of the execution layer:
+
+* It is responsible for the execution of transactions.
+* It is implemented as a smart contract platform.
+* It is written in a programming language that is specific to the blockchain platform.
+* It can be used to implement a wide variety of applications.
+* It is a critical part of any blockchain network.
+* It is responsible for ensuring that the blockchain is secure and that transactions are processed in a fair and transparent manner.
+* It plays a role in the scalability of the blockchain network.
+
+The execution layer is a complex and important part of any blockchain network. It is responsible for ensuring that the blockchain is secure, efficient, and scalable. The execution layer is also responsible for enabling the development of new applications and services on the blockchain.
