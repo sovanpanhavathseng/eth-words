@@ -1,0 +1,18 @@
+An externally owned account (EOA) is a type of account on the Ethereum blockchain that is controlled by a private key. EOAs are the most basic type of account on Ethereum and are used to store Ether and interact with smart contracts.
+
+To create an EOA, you need to generate a private key and a public key. The private key is a secret number that is used to sign transactions, while the public key is derived from the private key and can be used to verify signatures. The public key is also used to generate an Ethereum address, which is a 20-byte hexadecimal string that is used to identify your account.
+
+Once you have created an EOA, you can use it to store Ether and interact with smart contracts. To send Ether to another EOA, you need to specify the recipient's address and the amount of Ether you want to send. To interact with a smart contract, you need to specify the contract's address and the function you want to call, along with any parameters that the function requires.
+
+EOAs are the most basic type of account on Ethereum, but they are also the most secure. The private key is the only way to access an EOA, so if you lose your private key, you will lose access to your funds. It is important to keep your private key safe and secure.
+
+Here are the steps on how an externally owned account works:
+
+1. A user generates a private key and a public key.
+2. The public key is used to generate an Ethereum address.
+3. The user can use their private key to sign transactions.
+4. The signed transactions are broadcast to the Ethereum network.
+5. Miners verify the transactions and add them to the blockchain.
+6. The recipient of the transaction can use the public key to verify the signature and claim the funds.
+
+Externally owned accounts are a fundamental part of the Ethereum blockchain. They allow users to store Ether, interact with smart contracts, and participate in the Ethereum ecosystem.
