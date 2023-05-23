@@ -1,0 +1,18 @@
+Events are notifications that are sent by an object to other objects when something happens. For example, when a user clicks on a button, the button object sends an event to the browser object. The browser object then handles the event by displaying a message or performing some other action.
+
+Events are a fundamental part of object-oriented programming (OOP). They allow objects to communicate with each other and to respond to changes in their environment.
+
+There are two types of events: user events and system events. User events are triggered by the user, such as mouse clicks, keystrokes, and drag-and-drop operations. System events are triggered by the operating system or by other applications, such as window resize events and timer events.
+
+Events are handled by event handlers. An event handler is a function that is called when an event is triggered. The event handler can be used to perform any action, such as displaying a message, changing the state of an object, or calling another function.
+
+Events are a powerful tool that can be used to make applications more interactive and responsive. They allow developers to create applications that can respond to changes in the user's environment and to the actions of other applications.
+
+Here are some of the benefits of using events:
+
+* They allow objects to communicate with each other.
+* They allow objects to respond to changes in their environment.
+* They make applications more interactive and responsive.
+* They are a powerful tool that can be used to create complex applications.
+
+Events are an essential part of object-oriented programming. They allow developers to create applications that are more interactive, responsive, and complex.
