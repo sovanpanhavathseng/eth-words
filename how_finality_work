@@ -1,0 +1,23 @@
+Finality is a measure of how certain we can be that a transaction on a blockchain is irreversible. There are two main types of finality: probabilistic finality and absolute finality.
+
+**Probabilistic finality** is the most common type of finality on blockchains. It means that there is a high probability that a transaction will not be reversed, but there is still a small chance that it could happen. Probabilistic finality is achieved by waiting for a certain number of blocks to be confirmed. For example, Bitcoin requires 6 confirmations before a transaction is considered final.
+
+**Absolute finality** is a stronger guarantee that a transaction will not be reversed. It is achieved by using a consensus mechanism that requires a supermajority of nodes to agree on the validity of a transaction. For example, Ethereum 2.0 uses a proof-of-stake consensus mechanism that requires ⅔ of validators to agree on the validity of a block before it is considered final.
+
+The amount of time it takes for a transaction to reach finality depends on the type of finality and the blockchain network. Probabilistic finality can take a few seconds to minutes, while absolute finality can take hours or even days.
+
+Finality is an important property for blockchains because it allows users to trust that their transactions are secure and irreversible. This is essential for applications such as decentralized finance (DeFi), where users need to be confident that their funds are safe.
+
+Here are some of the benefits of finality:
+
+* **Security:** Finality provides a high degree of security for blockchain transactions. Once a transaction is final, it is very difficult to reverse. This makes blockchains a good choice for applications that require high security, such as financial transactions.
+* **Immutability:** Finality also ensures that blockchain records are immutable. Once a transaction is added to the blockchain, it cannot be changed or deleted. This makes blockchains a good choice for applications that require a tamper-proof record of transactions, such as voting systems.
+* **Efficiency:** Finality can help to improve the efficiency of blockchain networks. By reducing the number of reversals, finality can help to keep transaction fees low and make the network more scalable.
+
+Here are some of the challenges of finality:
+
+* **Latency:** Finality can add latency to blockchain transactions. The longer it takes for a transaction to reach finality, the longer it takes for the sender and recipient to be confident that the transaction has been completed.
+* **Cost:** Finality can also add cost to blockchain transactions. Some blockchain networks require users to pay a fee to have their transactions finalized.
+* **Security:** Finality can also be a security risk. If a malicious actor is able to control a majority of the network, they could potentially reverse transactions that have already been finalized.
+
+Overall, finality is an important property for blockchains. It provides a high degree of security, immutability, and efficiency for blockchain transactions. However, there are also some challenges associated with finality, such as latency, cost, and security.
