@@ -1,0 +1,18 @@
+Gas limit is a parameter that is used to specify the maximum amount of gas that a transaction is allowed to consume. Gas is a unit of measurement that is used to quantify the computational effort required to execute a transaction on the Ethereum blockchain. The gas limit is important because it helps to prevent transactions from consuming more gas than they are supposed to. If a transaction exceeds its gas limit, it will fail and the user will lose the gas that they have already paid.
+
+The gas limit is set by the user when they are sending a transaction. The default gas limit for most transactions is 21,000 gas. However, the gas limit can be increased or decreased depending on the complexity of the transaction. For example, a transaction that involves interacting with a smart contract will require a higher gas limit than a simple ETH transfer.
+
+The gas price is another important parameter that is used to calculate the cost of a transaction. The gas price is the amount of ETH that the user is willing to pay per unit of gas. The gas price is set by the user, but it is also influenced by the current network conditions. When the network is congested, the gas price will be higher.
+
+The total cost of a transaction is calculated by multiplying the gas limit by the gas price. For example, if the gas limit is 21,000 gas and the gas price is 50 gwei, then the total cost of the transaction will be 1,050,000 gwei, which is equivalent to 0.01 ETH.
+
+It is important to note that the gas limit and the gas price are two separate parameters. The gas limit specifies the maximum amount of gas that a transaction is allowed to consume, while the gas price specifies the amount of ETH that the user is willing to pay per unit of gas. The total cost of a transaction is calculated by multiplying the gas limit by the gas price.
+
+Users can choose to set their own gas limit and gas price, but they can also use the default values that are set by their wallet. The default values are usually sufficient for most transactions, but users may want to increase the gas limit or gas price if they are sending a complex transaction or if they want their transaction to be processed more quickly.
+
+Here are some tips for setting the gas limit and gas price:
+
+* Use the default values unless you have a specific reason to change them.
+* Increase the gas limit if you are sending a complex transaction or if you want your transaction to be processed more quickly.
+* Increase the gas price if you want your transaction to be processed ahead of other transactions.
+* Be aware that the gas limit and gas price can affect the cost of your transaction.
