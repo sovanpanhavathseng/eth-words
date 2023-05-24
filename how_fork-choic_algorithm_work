@@ -1,0 +1,9 @@
+The fork choice algorithm is a method for choosing the canonical chain in a blockchain network. It is used to resolve conflicts between different versions of the chain, and to ensure that all nodes in the network are synchronized.
+
+The fork choice algorithm in Ethereum 2.0 is called LMD GHOST. It works by first identifying a set of "justified checkpoints". These are blocks that are considered to be very likely to be on the canonical chain. Once the justified checkpoints have been identified, the fork choice algorithm then considers all blocks that are descendants of these checkpoints. The block with the most attestations is chosen as the canonical chain.
+
+Attestations are messages that are sent by validators to indicate that they believe a particular block is on the canonical chain. The more attestations a block has, the more likely it is to be on the canonical chain.
+
+The LMD GHOST fork choice algorithm is designed to be secure and efficient. It is secure because it ensures that only blocks that are likely to be on the canonical chain are considered. It is efficient because it does not require nodes to store all of the blocks in the blockchain.
+
+The LMD GHOST fork choice algorithm is a key part of the Ethereum 2.0 consensus mechanism. It is responsible for ensuring that the network is secure and that all nodes are synchronized.
