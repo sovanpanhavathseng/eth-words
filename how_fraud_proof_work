@@ -1,0 +1,17 @@
+Fraud proofs are a way of detecting and resolving fraud on a blockchain. They work by allowing anyone to submit a proof that a particular transaction is fraudulent. If the proof is valid, the transaction is invalidated and the fraudster is penalized.
+
+Fraud proofs are based on the idea that it is easier to prove that something is wrong than to prove that it is right. In the case of a blockchain, this means that it is easier to prove that a transaction is fraudulent than it is to prove that it is legitimate.
+
+To submit a fraud proof, a user must first identify the fraudulent transaction. Once the transaction has been identified, the user must then gather evidence that proves that the transaction is fraudulent. This evidence can include things like the transaction hash, the sender and recipient addresses, and the time and date of the transaction.
+
+Once the evidence has been gathered, the user must then submit it to the blockchain network. The network will then verify the evidence and, if it is valid, the transaction will be invalidated. The fraudster will then be penalized, which can include losing the funds that were sent in the fraudulent transaction.
+
+Fraud proofs are a powerful tool for detecting and resolving fraud on a blockchain. They are easy to use and can be submitted by anyone. This makes them a valuable tool for protecting the integrity of blockchain networks.
+
+Here are some of the benefits of using fraud proofs:
+
+* They are efficient. Fraud proofs do not require all nodes in the network to verify every transaction. This makes them more efficient than traditional methods of fraud detection, such as full node verification.
+* They are scalable. Fraud proofs can be used to scale blockchain networks without sacrificing security. This is because fraud proofs only need to be verified for a small subset of transactions.
+* They are secure. Fraud proofs are secure because they are based on cryptographic proofs. This means that it is very difficult for fraudsters to forge fraud proofs.
+
+Overall, fraud proofs are a powerful tool for detecting and resolving fraud on a blockchain. They are efficient, scalable, and secure. This makes them a valuable tool for protecting the integrity of blockchain networks.
