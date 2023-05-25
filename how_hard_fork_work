@@ -1,0 +1,21 @@
+A hard fork is a permanent change to the protocol of a blockchain network. It requires all nodes on the network to upgrade their software to the new version in order to continue participating. If a node does not upgrade, it will be unable to communicate with the rest of the network and will effectively be disconnected.
+
+Hard forks can be used to implement new features, fix bugs, or address security vulnerabilities. They can also be used to split a blockchain into two separate networks, as happened with Bitcoin Cash in 2017.
+
+Here are the steps on how a hard fork works:
+
+1. The developers of the blockchain network propose a change to the protocol.
+2. The community votes on the proposal.
+3. If the proposal is approved, the developers release a new version of the software that implements the change.
+4. All nodes on the network must upgrade to the new software in order to continue participating.
+5. Once a majority of nodes have upgraded, the hard fork is complete.
+
+Hard forks are a necessary part of the evolution of blockchain technology. They allow blockchain networks to adapt and improve over time. However, they can also be disruptive, as they can split a blockchain into two separate networks.
+
+Here are some examples of hard forks that have occurred in the blockchain space:
+
+* Bitcoin Cash hard fork: In 2017, the Bitcoin community was divided over the issue of block size. Some users wanted to increase the block size to allow for more transactions, while others wanted to keep the block size small to preserve decentralization. The disagreement led to a hard fork, which created two separate networks: Bitcoin and Bitcoin Cash.
+* Ethereum hard fork: In 2016, the Ethereum network was hacked, and \$50 million worth of Ether was stolen. The developers of Ethereum responded by creating a hard fork that rolled back the blockchain to a point before the hack occurred. This restored the stolen Ether to their rightful owners.
+* Ethereum Classic hard fork: In 2016, the Ethereum community was divided over the issue of how to handle the hack that occurred on the network. Some users wanted to roll back the blockchain, while others wanted to keep the blockchain intact and learn from the hack. The disagreement led to a hard fork, which created two separate networks: Ethereum and Ethereum Classic.
+
+Hard forks are a complex topic, and there is no one-size-fits-all answer to the question of whether or not they are good or bad. However, they are a necessary part of the evolution of blockchain technology, and they can be used to improve the security, scalability, and functionality of blockchain networks.
