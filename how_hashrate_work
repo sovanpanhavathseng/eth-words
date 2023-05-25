@@ -1,0 +1,20 @@
+Hash rate is a measure of the computational power that is being used to solve the cryptographic puzzles that are required to add new blocks to a blockchain. The higher the hash rate, the more difficult it is for an attacker to successfully attack the network.
+
+Hash rate is measured in hashes per second. A hash is a mathematical function that takes an input of any size and produces an output of a fixed size. In the context of blockchain, the input to the hash function is the data that is being added to the blockchain, and the output is a unique identifier for that data.
+
+To add a new block to a blockchain, miners must solve a cryptographic puzzle. The puzzle is designed to be difficult to solve, but easy to verify. Miners use specialized hardware to solve the puzzles as quickly as possible. The miner who solves the puzzle first is awarded a block reward, which is a certain amount of cryptocurrency.
+
+The hash rate of a blockchain network is a measure of the total computational power that is being used to solve the cryptographic puzzles. A higher hash rate makes it more difficult for an attacker to successfully attack the network. This is because an attacker would need to control more than half of the hash rate in order to successfully mount a 51% attack.
+
+A 51% attack is a type of attack in which an attacker gains control of more than half of the hash rate of a blockchain network. This gives the attacker the ability to censor transactions, reverse transactions, and double-spend coins.
+
+A high hash rate is therefore an important security feature for blockchain networks. It makes it more difficult for attackers to successfully attack the network and steal cryptocurrency.
+
+Here are some of the factors that can affect hash rate:
+
+* The number of miners: The more miners there are, the higher the hash rate will be.
+* The type of hardware used by miners: More powerful hardware can solve puzzles faster, which can lead to a higher hash rate.
+* The cost of electricity: The cost of electricity can affect the profitability of mining, which can in turn affect the number of miners.
+* The price of cryptocurrency: The price of cryptocurrency can affect the incentive for miners to participate in the network.
+
+Overall, hash rate is an important security feature for blockchain networks. It makes it more difficult for attackers to successfully attack the network and steal cryptocurrency.
