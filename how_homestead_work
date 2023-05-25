@@ -1,0 +1,12 @@
+Homestead is a major upgrade to the Ethereum blockchain that was launched on March 14, 2016. The upgrade introduced a number of changes to the Ethereum protocol, including:
+
+* **Proof-of-Stake:** Homestead introduced Proof-of-Stake as a new consensus mechanism for the Ethereum network. Proof-of-Stake is a more energy-efficient and secure alternative to Proof-of-Work, the consensus mechanism that Ethereum used prior to Homestead.
+* **Homestead Difficulty Bomb:** The Homestead Difficulty Bomb was a feature that was introduced in the Frontier release of Ethereum. The Difficulty Bomb was designed to make it increasingly difficult to mine Ethereum blocks over time. The purpose of the Difficulty Bomb was to incentivize the Ethereum community to transition to Proof-of-Stake. The Difficulty Bomb was disabled in Homestead.
+* **Homestead Security Improvements:** Homestead also introduced a number of security improvements to the Ethereum protocol. These improvements included:
+    * **Morden Testnet:** Homestead introduced the Morden testnet, which is a public testnet for Ethereum developers. The Morden testnet allows developers to test their Ethereum applications and contracts in a safe environment.
+    * **EIP 150:** EIP 150 introduced a number of security improvements to the Ethereum protocol, including:
+        * **Gas Price Floor:** EIP 150 introduced a gas price floor, which is a minimum gas price that must be paid for all transactions. The gas price floor is designed to prevent spam transactions.
+        * **Repricing:** EIP 150 introduced a repricing mechanism, which is a mechanism that automatically adjusts the gas price based on the current network conditions. The repricing mechanism is designed to prevent the gas price from becoming too high or too low.
+    * **EIP 155:** EIP 155 introduced a new way for contracts to access the block gas limit. The new way of accessing the block gas limit is designed to prevent contracts from being able to manipulate the gas limit.
+
+Homestead was a major upgrade to the Ethereum blockchain that introduced a number of new features and improvements. The upgrade was a success and the Ethereum network has continued to grow and develop since Homestead.
