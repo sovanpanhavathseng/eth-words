@@ -1,0 +1,25 @@
+The Inter-exchange Client Address Protocol (ICAP) is a system for referencing and transacting to Ethereum client accounts. It is designed to be compatible with the International Bank Account Number (IBAN) system, which is used by banks and other financial institutions around the world.
+
+ICAP addresses are 34 characters long and consist of the following parts:
+
+* A country code: XE, which is the Ethereum country code.
+* A checksum: A 1-digit checksum used to verify the accuracy of the address.
+* An account identifier: A 32-character identifier for the Ethereum account.
+
+ICAP addresses can be used to send and receive Ethereum tokens and other assets. They can also be used to identify users and accounts on Ethereum-based applications.
+
+Here is an example of an ICAP address:
+
+```
+XE1234567890ABCDEF1234567890
+```
+
+This address is for an Ethereum account with the identifier `1234567890ABCDEF1234567890`.
+
+ICAP addresses offer a number of advantages over traditional Ethereum addresses. They are:
+
+* More human-readable: ICAP addresses are easier to read and remember than traditional Ethereum addresses.
+* More secure: The checksum helps to prevent errors and fraud.
+* More interoperable: ICAP addresses can be used by any Ethereum-based application, regardless of the exchange or wallet that is used.
+
+ICAP is still under development, but it has the potential to revolutionize the way that Ethereum addresses are used. By making addresses more human-readable, secure, and interoperable, ICAP could help to make Ethereum more accessible to a wider range of users.
