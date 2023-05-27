@@ -1,0 +1,24 @@
+A key derivation function (KDF) is a cryptographic algorithm that takes a secret value, such as a password, and produces one or more cryptographic keys. KDFs are used to generate keys for a variety of purposes, including encryption, authentication, and digital signatures.
+
+KDFs work by taking the secret value and applying a series of transformations to it. These transformations are designed to be computationally expensive, so that it is difficult for an attacker to guess the secret value by trying different passwords.
+
+There are a number of different KDFs available, each with its own strengths and weaknesses. Some of the most popular KDFs include:
+
+* PBKDF2: PBKDF2 is a simple and efficient KDF that is well-suited for a variety of applications.
+* bcrypt: bcrypt is a more secure KDF than PBKDF2, but it is also more computationally expensive.
+* scrypt: scrypt is a very secure KDF that is designed to be resistant to GPU-based attacks.
+
+The choice of KDF depends on the specific application. For example, PBKDF2 is a good choice for applications where speed is important, while bcrypt or scrypt are better choices for applications where security is paramount.
+
+Here are some of the benefits of using a KDF:
+
+* **Increased security:** KDFs make it more difficult for attackers to guess passwords.
+* **Reduced complexity:** KDFs can simplify the process of generating keys for a variety of applications.
+* **Increased flexibility:** KDFs can be used to generate keys of different sizes and formats.
+
+Here are some of the risks of using a KDF:
+
+* **Computational overhead:** KDFs can be computationally expensive, especially for large passwords or keys.
+* **Security vulnerabilities:** KDFs can be vulnerable to security attacks, especially if they are not properly implemented.
+
+It is important to weigh the benefits and risks of using a KDF before deciding whether or not to use one.
