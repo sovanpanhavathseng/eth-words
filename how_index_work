@@ -1,0 +1,19 @@
+An index is a data structure that helps a database find data more quickly. It is a separate table that contains a copy of one or more columns from the main table, along with a pointer to the corresponding row in the main table. When a user performs a query, the database first checks the index to see if the desired data is present. If it is, the database can quickly retrieve the data from the main table. If the data is not in the index, the database must search the main table linearly, which can take longer.
+
+There are two main types of indexes: clustered and non-clustered. A clustered index is a special type of index that is used to physically order the data in the main table. A non-clustered index is an index that is not used to physically order the data in the main table.
+
+Indexes can be used to improve the performance of a variety of queries, including:
+
+* **Select queries:** Indexes can be used to quickly find rows that match a specific criteria. For example, if you want to find all customers who live in a certain city, the database can use an index on the `city` column to quickly find the matching rows.
+* **Update queries:** Indexes can be used to quickly update rows that match a specific criteria. For example, if you want to update the phone number for all customers who live in a certain city, the database can use an index on the `city` column to quickly find the matching rows.
+* **Delete queries:** Indexes can be used to quickly delete rows that match a specific criteria. For example, if you want to delete all customers who live in a certain city, the database can use an index on the `city` column to quickly find the matching rows.
+
+Indexes can be a valuable tool for improving the performance of a database. However, it is important to note that indexes can also add some overhead to the database. The decision of whether or not to create an index should be made on a case-by-case basis, taking into account the expected workload on the database.
+
+Here are some additional things to keep in mind about indexes:
+
+* Indexes can be updated whenever data in the main table is updated. However, updating an index can be time-consuming, so it is important to consider the impact of index updates on performance.
+* Indexes can be dropped if they are no longer needed. Dropping an index can improve performance by reducing the amount of overhead that the index adds to the database.
+* There is a limit to the number of indexes that can be created on a table. The maximum number of indexes that can be created on a table depends on the database server and the table structure.
+
+Overall, indexes are a powerful tool that can be used to improve the performance of a database. However, it is important to use indexes wisely and to consider the impact of indexes on performance.
