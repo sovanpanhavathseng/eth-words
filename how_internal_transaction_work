@@ -1,0 +1,20 @@
+An internal transaction is a type of transaction that occurs within a smart contract. It is used to transfer value or data between different parts of the contract. Internal transactions are not visible on the blockchain, and they do not require any gas.
+
+Internal transactions are created when a smart contract function is called. The function can then transfer value or data to other parts of the contract, or to other contracts. Internal transactions are a powerful tool that can be used to create complex and sophisticated smart contracts.
+
+Here are some examples of how internal transactions can be used:
+
+* To transfer value between different accounts in a contract.
+* To update the state of a contract.
+* To call other contracts.
+* To implement complex logic.
+
+Internal transactions are a powerful tool that can be used to create complex and sophisticated smart contracts. However, they can also be used to create malicious contracts. It is important to carefully review the code of any contract before interacting with it, to ensure that it is safe and secure.
+
+Here are some of the risks associated with internal transactions:
+
+* **Malicious contracts:** Malicious contracts can use internal transactions to steal funds or data.
+* **Security vulnerabilities:** Internal transactions can be used to exploit security vulnerabilities in a contract.
+* **Lack of transparency:** Internal transactions are not visible on the blockchain, which makes it difficult to track their activity.
+
+It is important to be aware of the risks associated with internal transactions before using them. By understanding the risks, you can help to protect yourself from malicious contracts and security vulnerabilities.
