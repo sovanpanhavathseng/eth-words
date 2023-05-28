@@ -1,0 +1,16 @@
+Mainnet is the live, production version of a blockchain network. It is the network that is used by real users to send and receive cryptocurrency. Mainnet is different from testnet, which is a testing environment that is used by developers to test their code before it is deployed on mainnet.
+
+Mainnet works by using a consensus mechanism to ensure that all nodes in the network agree on the state of the blockchain. The most common consensus mechanism is proof-of-work (PoW), which requires nodes to solve complex mathematical problems in order to add blocks to the blockchain. Other consensus mechanisms include proof-of-stake (PoS), delegated proof-of-stake (DPoS), and proof-of-authority (PoA).
+
+Once a block is added to the blockchain, it is considered to be permanent and cannot be changed. This is because each block is cryptographically linked to the previous block, forming a chain of blocks. This chain of blocks is what makes the blockchain secure and tamper-proof.
+
+Mainnet is the foundation of the blockchain ecosystem. It is the network that allows real users to send and receive cryptocurrency. Mainnet is also the network that allows developers to build decentralized applications (dApps).
+
+Here are some of the key features of mainnet:
+
+* **Security:** Mainnet is the most secure version of a blockchain network. This is because it is the network that is used by real users to send and receive cryptocurrency.
+* **Scalability:** Mainnet is designed to be scalable. This means that it can handle a large number of transactions without slowing down.
+* **Decentralization:** Mainnet is a decentralized network. This means that it is not controlled by any single entity.
+* **Transparency:** Mainnet is a transparent network. This means that all transactions are public and can be verified by anyone.
+
+Overall, mainnet is the most important part of the blockchain ecosystem. It is the network that allows real users to send and receive cryptocurrency, and it is the network that allows developers to build decentralized applications.
