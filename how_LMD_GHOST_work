@@ -1,0 +1,22 @@
+LMD GHOST stands for Longest-Chain-Rule with Modified GHOST. It is a fork-choice rule used in Proof-of-Stake (PoS) blockchains. LMD GHOST is designed to select the longest chain as the canonical chain, while also giving credit to shorter chains that have a high number of endorsements.
+
+LMD GHOST works by first identifying the longest chain. It then identifies all of the shorter chains that have a high number of endorsements. Finally, it selects the chain with the highest total weight. The total weight of a chain is calculated by adding the weight of each block in the chain.
+
+The weight of a block is calculated by multiplying the block's gas limit by the block's gas price. The gas limit is the maximum amount of gas that can be used in a block. The gas price is the amount of Ether that is paid per unit of gas.
+
+LMD GHOST is a more efficient and secure fork-choice rule than the Longest-Chain-Rule (LCR). LCR only considers the longest chain when selecting the canonical chain. This can lead to problems if there are two long chains that are competing for the canonical chain. LMD GHOST, on the other hand, also considers shorter chains that have a high number of endorsements. This helps to prevent forks and ensure that the canonical chain is always the most secure chain.
+
+LMD GHOST is currently used in the Ethereum PoS blockchain. It is also being considered for use in other PoS blockchains, such as Cardano and Tezos.
+
+Here are some of the advantages of using LMD GHOST:
+
+* **More efficient:** LMD GHOST is more efficient than LCR because it considers shorter chains that have a high number of endorsements. This helps to prevent forks and ensure that the canonical chain is always the most secure chain.
+* **More secure:** LMD GHOST is more secure than LCR because it considers shorter chains that have a high number of endorsements. This helps to prevent forks and ensure that the canonical chain is always the most secure chain.
+* **More fair:** LMD GHOST is more fair than LCR because it gives credit to all chains, regardless of their length. This helps to ensure that all validators have an equal chance of earning rewards.
+
+Here are some of the disadvantages of using LMD GHOST:
+
+* **More complex:** LMD GHOST is more complex than LCR. This makes it more difficult to understand and implement.
+* **More computationally expensive:** LMD GHOST is more computationally expensive than LCR. This is because it needs to consider all of the shorter chains that have a high number of endorsements.
+
+Overall, LMD GHOST is a more efficient, secure, and fair fork-choice rule than LCR. It is currently used in the Ethereum PoS blockchain and is being considered for use in other PoS blockchains.
