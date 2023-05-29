@@ -1,0 +1,13 @@
+Network hashrate is a measure of the computational power of a blockchain network. It is calculated by measuring the number of hashes that are performed per second on the network. The higher the hashrate, the more secure the network is.
+
+Hashrate is important because it makes it more difficult for attackers to successfully attack a blockchain network. If an attacker wants to change the data on a blockchain, they would need to control more than 50% of the network's hashrate. This is very difficult to do, as it would require a significant amount of computing power.
+
+Network hashrate is also important for determining the difficulty of mining. The difficulty of mining is adjusted based on the hashrate of the network. This ensures that the average time it takes to mine a block remains constant.
+
+Network hashrate is a constantly changing metric. It can fluctuate based on a number of factors, including the price of cryptocurrency, the availability of mining hardware, and the profitability of mining.
+
+There are a number of ways to measure network hashrate. One common way is to use a blockchain explorer. Blockchain explorers are websites that track the activity of blockchain networks. They typically display the current hashrate of the network, as well as the hashrate over time.
+
+Another way to measure network hashrate is to use a mining pool. Mining pools are groups of miners who pool their resources together to mine cryptocurrency. Mining pools typically display the hashrate of the pool, as well as the hashrate of the network.
+
+Network hashrate is an important metric for understanding the security and stability of a blockchain network. It is also a useful metric for miners, as it can help them to determine the profitability of mining.
