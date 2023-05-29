@@ -1,0 +1,16 @@
+An ommer block, also known as an uncle block, is a block that is not part of the main chain of the Ethereum blockchain. It is created when two miners find a block at the same time. The Ethereum network only accepts one of these blocks, and the other block is considered an ommer block.
+
+Ommer blocks are still valid blocks, and they contain valid transactions. However, they are not considered part of the main chain because they were not mined first. Ommer blocks are still included in the Ethereum blockchain, but they are stored in a separate branch of the blockchain called the ommer tree.
+
+Ommer blocks are important because they help to prevent forks in the Ethereum blockchain. A fork occurs when two miners find a block at the same time and both blocks are accepted by the network. This can cause confusion and instability in the network. Ommer blocks help to prevent forks by ensuring that only one block is accepted at a time.
+
+Ommer blocks are also important because they help to secure the Ethereum blockchain. When a miner finds an ommer block, they are rewarded with a small amount of Ether. This reward helps to incentivize miners to continue mining and securing the network.
+
+Ommer blocks are a relatively new feature of the Ethereum blockchain. They were first introduced in the Istanbul hard fork in 2019. Ommer blocks have been shown to be effective in preventing forks and securing the network. They are an important part of the Ethereum blockchain and they will continue to be used in the future.
+
+Here are some additional details about ommer blocks:
+
+* Ommer blocks are limited to a maximum of 8 per parent block.
+* Ommer blocks are only included in the blockchain if they are valid and if they are within the sixth generation of the parent block.
+* Ommer blocks receive a smaller reward than full blocks.
+* Ommer blocks can be used to help secure the network and to prevent forks.
