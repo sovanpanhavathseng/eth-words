@@ -1,0 +1,26 @@
+An optimistic rollup is a layer 2 scaling solution for Ethereum. It works by moving computation and state storage off-chain, while still maintaining security by posting transaction data to Ethereum.
+
+Here's how it works in more detail:
+
+1. Users send transactions to an optimistic rollup.
+2. The transactions are processed off-chain by a sequencer.
+3. The sequencer bundles the transactions into a batch and submits it to Ethereum.
+4. A fraud verifier checks the batch to make sure it is valid.
+5. If the batch is valid, it is accepted by Ethereum and the transactions are processed.
+6. If the batch is invalid, the sequencer is penalized.
+
+Optimistic rollups offer a number of advantages over other scaling solutions, including:
+
+* High throughput: Optimistic rollups can process thousands of transactions per second.
+* Low fees: Optimistic rollups can offer significantly lower fees than Ethereum.
+* Security: Optimistic rollups are secured by Ethereum's consensus mechanism.
+
+Optimistic rollups are one of the most promising scaling solutions for Ethereum. They offer a high degree of scalability and security, while still being compatible with the Ethereum ecosystem.
+
+Here are some of the benefits of using optimistic rollups:
+
+* **Low fees:** Optimistic rollups can offer significantly lower fees than Ethereum. This is because the computation and state storage are moved off-chain, which reduces the amount of work that needs to be done on Ethereum.
+* **High throughput:** Optimistic rollups can process thousands of transactions per second. This is because the transactions are processed off-chain, which allows for parallelization.
+* **Security:** Optimistic rollups are secured by Ethereum's consensus mechanism. This means that they are as secure as Ethereum itself.
+
+If you are looking for a way to scale your Ethereum application and reduce your fees, then optimistic rollups are a great option.
