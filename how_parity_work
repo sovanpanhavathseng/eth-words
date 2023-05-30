@@ -1,0 +1,15 @@
+Parity is a technique used to detect and correct errors in data transmission. It works by adding an extra bit to each data block, called the parity bit. The parity bit is calculated based on the value of the other bits in the block. For example, if the other bits in the block are all 0, then the parity bit will be 1. If the other bits in the block are all 1, then the parity bit will be 0.
+
+When the data is received, the parity bit is recalculated and compared to the received parity bit. If the two parity bits are not the same, then an error has occurred. The error can be corrected by flipping the bit in the data block that caused the error.
+
+Parity can be used to detect and correct single-bit errors. It cannot detect or correct multiple-bit errors.
+
+In RAID storage arrays, parity is used to provide fault tolerance. In RAID 5, for example, data is striped across multiple disks. A parity bit is calculated for each data block and stored on a separate disk. If one disk fails, the data on that disk can be reconstructed from the data on the other disks and the parity bits.
+
+Parity is a simple and effective way to protect data from corruption. It is used in a variety of applications, including RAID storage arrays, network protocols, and data encryption.
+
+Here are some examples of how parity is used in RAID storage arrays:
+
+* RAID 5: In RAID 5, data is striped across three or more disks. A parity bit is calculated for each data block and stored on a separate disk. If one disk fails, the data on that disk can be reconstructed from the data on the other disks and the parity bits.
+* RAID 6: RAID 6 is similar to RAID 5, but it uses two parity bits for each data block. This provides greater protection against data loss, as two disks can fail without losing any data.
+* RAID 10: RAID 10 combines striping and mirroring. Data is striped across two or more disks, and each disk is mirrored to another disk. This provides the best protection against data loss, as any two disks can fail without losing any data.
