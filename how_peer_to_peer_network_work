@@ -1,0 +1,18 @@
+A peer-to-peer (P2P) network is a type of network where each computer is considered equal, and all computers can act as both clients and servers. In a traditional client-server network, there is a central server that controls the network and provides resources to clients. In a P2P network, there is no central server. Instead, all computers on the network share resources with each other.
+
+P2P networks are often used for file sharing, but they can also be used for other purposes, such as gaming, streaming media, and collaboration.
+
+Here is how a P2P network works:
+
+1. Each computer on the network is assigned a unique identifier.
+2. Computers on the network exchange information about their resources, such as files, bandwidth, and processing power.
+3. When a computer wants to access a resource, it sends a request to the computer that owns the resource.
+4. The computer that owns the resource sends the requested resource to the requesting computer.
+
+P2P networks are often used for file sharing because they can provide faster download speeds than traditional client-server networks. This is because there are multiple computers that can provide the same file, so the download can be split up and sent from multiple sources.
+
+P2P networks are also more resilient to failure than traditional client-server networks. If one computer on a P2P network fails, the other computers can still provide the resources that the failed computer was providing.
+
+However, P2P networks also have some disadvantages. They can be more difficult to manage than traditional client-server networks. They can also be more vulnerable to security attacks.
+
+Overall, P2P networks are a powerful tool that can be used for a variety of purposes. They offer a number of advantages over traditional client-server networks, but they also have some disadvantages.
