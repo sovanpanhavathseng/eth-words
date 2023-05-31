@@ -1,0 +1,28 @@
+A shard is a partition of a blockchain network. Sharding is a technique used to improve the scalability of blockchain networks by dividing the network into smaller, more manageable shards. Each shard is responsible for processing a subset of the network's transactions. This allows the network to process more transactions per second and improve latency.
+
+There are two main types of shard chains:
+
+* **Horizontal sharding** divides the network by state. Each shard is responsible for processing transactions that involve a particular state, such as all transactions involving a particular account or contract.
+* **Vertical sharding** divides the network by function. Each shard is responsible for processing a particular type of transaction, such as all payments or all smart contract invocations.
+
+Sharding can be a complex and challenging technique to implement. However, it has the potential to significantly improve the scalability of blockchain networks.
+
+Here is an example of how shard chains work in a blockchain network:
+
+1. The network is divided into shards.
+2. Each shard is assigned a set of nodes.
+3. Nodes in each shard are responsible for processing transactions that involve the shard's state.
+4. Transactions are submitted to the network and are routed to the appropriate shard.
+5. Nodes in the shard process the transactions and reach a consensus on the state of the shard.
+6. The state of the shard is then submitted to the main chain.
+7. The main chain merges the state of the shard with its own state.
+
+This process is repeated for each transaction that is submitted to the network. By dividing the network into shards, the network can process more transactions per second and improve latency.
+
+Sharding is a promising technique for improving the scalability of blockchain networks. However, it is a complex and challenging technique to implement. There are a number of challenges that need to be addressed, such as:
+
+* **Security**: Sharding can introduce new security vulnerabilities. For example, if a shard is compromised, it could affect all of the transactions that involve the shard's state.
+* **Consensus**: Shards need to reach a consensus on the state of the shard. This can be a challenge, especially if the shards are geographically distributed.
+* **Data availability**: Shards need to have access to the data that is needed to process transactions. This can be a challenge if the data is stored on a distributed network.
+
+Despite these challenges, sharding is a promising technique for improving the scalability of blockchain networks. As the technology matures, sharding is likely to become a more common way to scale blockchain networks.
