@@ -1,0 +1,25 @@
+Remote Procedure Call (RPC) is a software communication protocol that enables computer programs to call functions on a remote machine as if they were calling a local function. RPC uses the client-server model, where the client program makes a request to the server program, and the server program returns a response.
+
+When a client program makes an RPC call, it sends a request message to the server program. The request message contains the name of the function to be called, as well as the arguments to the function. The server program receives the request message and executes the function. The server program then returns a response message to the client program. The response message contains the return value of the function, as well as any output parameters.
+
+RPC is a powerful tool that can be used to build distributed applications. RPC can be used to:
+
+* Call functions on remote machines
+* Share data between machines
+* Optimize performance by offloading computation to remote machines
+* Simplify development by abstracting away the details of network communication
+
+RPC is a complex topic, and there are many different RPC implementations available. Some popular RPC implementations include:
+
+* Sun RPC
+* Microsoft RPC
+* Apache Thrift
+* gRPC
+
+When choosing an RPC implementation, it is important to consider the following factors:
+
+* The type of network communication that will be used (TCP/IP, UDP, etc.)
+* The programming language that will be used to develop the client and server programs
+* The features that are required, such as security, reliability, and performance
+
+RPC is a powerful tool that can be used to build distributed applications. By understanding how RPC works, you can use it to build applications that are more efficient, scalable, and reliable.
