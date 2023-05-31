@@ -1,0 +1,22 @@
+Secure Hash Algorithm (SHA) is a family of cryptographic hash functions designed by the National Security Agency (NSA) and published by the National Institute of Standards and Technology (NIST). SHA algorithms are used to verify the authenticity and integrity of data. They are also used to create digital signatures, which can be used to verify the identity of the sender of a message.
+
+SHA algorithms work by transforming the data using a hash function. A hash function is an algorithm that takes an input of any length and produces an output of a fixed length. The output of a hash function is called a hash value or message digest.
+
+SHA algorithms are designed to be collision-resistant and preimage-resistant. Collision resistance means that it is computationally infeasible to find two different inputs that produce the same hash value. Preimage resistance means that it is computationally infeasible to find an input that produces a given hash value.
+
+The SHA family includes the following algorithms:
+
+* SHA-1: SHA-1 was the first SHA algorithm published by NIST. It produces a 160-bit hash value. SHA-1 is no longer considered to be secure, as it has been shown to be vulnerable to collision attacks.
+* SHA-224: SHA-224 is a 224-bit variant of SHA-2. It is considered to be as secure as SHA-256.
+* SHA-256: SHA-256 is a 256-bit variant of SHA-2. It is considered to be one of the most secure hash algorithms available.
+* SHA-384: SHA-384 is a 384-bit variant of SHA-2. It is considered to be even more secure than SHA-256.
+* SHA-512: SHA-512 is a 512-bit variant of SHA-2. It is considered to be the most secure hash algorithm available.
+
+SHA algorithms are used in a variety of security applications, including:
+
+* Digital signatures: Digital signatures are used to verify the identity of the sender of a message. They are also used to ensure that a message has not been tampered with since it was sent.
+* File integrity checking: File integrity checking is used to verify that a file has not been tampered with since it was created or downloaded.
+* Password hashing: Password hashing is used to store passwords in a secure way.
+* Data authentication: Data authentication is used to verify the authenticity of data.
+
+SHA algorithms are an important part of modern security. They are used to protect a wide variety of data, including financial information, medical records, and government secrets.
