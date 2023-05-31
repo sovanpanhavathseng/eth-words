@@ -1,0 +1,17 @@
+SNARKs, or Succinct Non-interactive zero-knowledge proofs, are a type of cryptographic proof that allows someone to prove to someone else that they know something without revealing what that something is. In the context of Mina, SNARKs are used to prove that a transaction has been verified without having to store the entire blockchain on every node.
+
+To create a SNARK, a snark worker first takes the transaction and converts it into a set of mathematical proofs. These proofs are then compressed using a technique called recursive zk-SNARKs. This compression allows the proofs to be much smaller than the original transaction data.
+
+Once the proofs have been compressed, they are signed by the snark worker using their private key. This signature is then attached to the transaction and published to the network.
+
+When a block producer wants to verify a transaction, they can use the public key of the snark worker to verify the signature. If the signature is valid, then the block producer can be confident that the transaction has been verified.
+
+SNARKs are a powerful tool that allow Mina to achieve its goal of being a scalable and secure blockchain. By using SNARKs, Mina is able to store the entire blockchain on every node without requiring a large amount of storage space. This makes Mina more accessible to a wider range of users and makes it more resistant to attack.
+
+Here are some of the benefits of using SNARKs:
+
+* Scalability: SNARKs allow Mina to scale to millions of transactions per second without requiring a large amount of storage space.
+* Security: SNARKs are a provably secure cryptographic primitive that can be used to verify transactions without revealing the underlying data.
+* Accessibility: SNARKs make it possible for anyone to run a node on the Mina network, regardless of their computing resources.
+
+Overall, SNARKs are a key component of the Mina protocol and play a vital role in making Mina a scalable, secure, and accessible blockchain.
