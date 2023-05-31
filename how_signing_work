@@ -1,0 +1,25 @@
+Signing is a process of creating a digital signature for a document or message. A digital signature is a mathematical algorithm that uses a private key to create a unique signature for a document or message. The signature can then be verified using the corresponding public key to ensure that the document or message has not been tampered with.
+
+There are two main types of digital signatures:
+
+* **Asymmetric encryption** uses two keys, a public key and a private key. The public key is used to encrypt data, and the private key is used to decrypt data.
+* **Hashing** uses a mathematical algorithm to create a unique value for a document or message. The hash value can then be used to verify the integrity of the document or message.
+
+To sign a document or message, the signer uses their private key to create a digital signature. The digital signature is then attached to the document or message. When the document or message is verified, the verifier uses the signer's public key to decrypt the digital signature. If the verifier is able to decrypt the digital signature, then they can be sure that the document or message has not been tampered with.
+
+Digital signatures are used in a variety of applications, including:
+
+* **Email** Digital signatures are used to verify the authenticity of emails.
+* **Documents** Digital signatures are used to verify the authenticity of documents.
+* **Software** Digital signatures are used to verify the authenticity of software.
+* **Financial transactions** Digital signatures are used to verify the authenticity of financial transactions.
+
+Digital signatures are a valuable tool for ensuring the authenticity and integrity of digital documents and messages. They can help to protect against fraud and forgery, and they can help to ensure the reliability of digital communications.
+
+Here are some of the benefits of using digital signatures:
+
+* **Authenticity** Digital signatures can help to ensure the authenticity of documents and messages. This is because the signature can be verified to be from the person who created it.
+* **Integrity** Digital signatures can help to ensure the integrity of documents and messages. This is because the signature can be used to detect any changes that have been made to the document or message since it was signed.
+* **Non-repudiation** Digital signatures can help to provide non-repudiation. This means that the person who signed the document or message cannot deny that they did so.
+
+Digital signatures are a valuable tool for ensuring the authenticity, integrity, and non-repudiation of documents and messages. They can help to protect against fraud and forgery, and they can help to ensure the reliability of digital communications.
