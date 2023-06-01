@@ -1,0 +1,17 @@
+Spurious Dragon is a hard fork of the Ethereum blockchain that occurred on March 14, 2016. The fork was implemented to fix a security vulnerability in the Ethereum Virtual Machine (EVM). The vulnerability allowed attackers to create contracts that could steal ether from other users.
+
+The Spurious Dragon fork was implemented by increasing the gas cost of certain operations, such as creating contracts and calling functions. This made it more expensive for attackers to exploit the vulnerability. The fork also included a number of other security improvements, such as a new opcode for checking the validity of addresses.
+
+The Spurious Dragon fork was a success in that it fixed the security vulnerability that it was designed to address. However, it also caused some disruption to the Ethereum network. Some contracts were invalidated by the fork, and some users lost ether due to the increased gas costs.
+
+Despite the disruption, the Spurious Dragon fork was a necessary step in the evolution of the Ethereum network. It helped to make the network more secure and reliable, and it paved the way for future improvements.
+
+Here are some of the key features of Spurious Dragon:
+
+* Increased gas costs for certain operations, such as creating contracts and calling functions.
+* New opcode for checking the validity of addresses.
+* Improved security measures for contracts.
+* Rollback of invalid contracts.
+* Compensation for users who lost ether due to the increased gas costs.
+
+The Spurious Dragon fork was a significant event in the history of Ethereum. It helped to make the network more secure and reliable, and it paved the way for future improvements.
