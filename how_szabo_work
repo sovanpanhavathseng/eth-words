@@ -1,0 +1,22 @@
+Szabo is a type of smart contract that is designed to be self-enforcing. This means that the contract can be executed without the need for a third party. Szabo contracts are typically used for simple transactions, such as escrow agreements or bets.
+
+Szabo contracts work by using a combination of cryptography and game theory. The contract is stored on the blockchain, and each party to the contract has a private key that allows them to sign transactions. When a party wants to execute the contract, they sign a transaction that releases the funds or property that is specified in the contract. The other party can then verify the signature and release their own funds or property.
+
+Szabo contracts are still in their early stages of development, but they have the potential to revolutionize the way that contracts are executed. By removing the need for a third party, Szabo contracts can make transactions more efficient, secure, and transparent.
+
+Here are some of the benefits of using Szabo contracts:
+
+* **Efficiency:** Szabo contracts can save time and money by eliminating the need for a third party to oversee the transaction.
+* **Security:** Szabo contracts are secured by the blockchain, which makes them very difficult to hack.
+* **Transparency:** All transactions on the blockchain are public, which makes it easy to verify that the contract has been executed correctly.
+
+Szabo contracts are still a new technology, but they have the potential to revolutionize the way that contracts are executed. As the technology continues to develop, Szabo contracts are likely to become more widely used.
+
+Here are some examples of how Szabo contracts can be used:
+
+* **Escrow agreements:** Szabo contracts can be used to create escrow agreements, which are agreements in which a third party holds on to funds or property until both parties have agreed to the terms of the transaction.
+* **Bets:** Szabo contracts can be used to create bets, which are agreements in which two parties agree to pay a certain amount of money if a certain event occurs.
+* **Reputation systems:** Szabo contracts can be used to create reputation systems, which are systems that track the behavior of individuals or organizations.
+* **Supply chain management:** Szabo contracts can be used to track the movement of goods through a supply chain.
+
+Szabo contracts are a powerful new tool that can be used to create a more efficient, secure, and transparent world. As the technology continues to develop, Szabo contracts are likely to become more widely used.
