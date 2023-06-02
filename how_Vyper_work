@@ -1,0 +1,17 @@
+Vyper is a smart contract language for the Ethereum blockchain. It is designed to be more readable and easier to write than Solidity, another popular smart contract language. Vyper is also more gas-efficient, which means that it can be used to create smart contracts that are cheaper to deploy and run.
+
+Vyper is a statically typed language, which means that the types of variables and expressions must be declared before they are used. This helps to prevent errors and makes Vyper code more reliable. Vyper also supports a number of features that are not available in Solidity, such as exception handling and pattern matching.
+
+Vyper is a relatively new language, but it is gaining popularity among developers who are looking for a more readable and efficient alternative to Solidity.
+
+Here are some of the key features of Vyper:
+
+* **Readability:** Vyper is designed to be more readable than Solidity. This is achieved through a number of features, such as:
+    * Simple syntax: Vyper's syntax is similar to Python, which makes it easier for developers who are already familiar with that language.
+    * Natural language keywords: Vyper uses natural language keywords, such as `def` for function definitions and `while` for loops. This makes the code easier to read and understand.
+* **Efficiency:** Vyper is more gas-efficient than Solidity. This means that smart contracts written in Vyper are cheaper to deploy and run.
+* **Static typing:** Vyper is a statically typed language. This means that the types of variables and expressions must be declared before they are used. This helps to prevent errors and makes Vyper code more reliable.
+* **Exception handling:** Vyper supports exception handling. This allows developers to handle errors that occur during the execution of a smart contract.
+* **Pattern matching:** Vyper supports pattern matching. This allows developers to match values against patterns and take different actions depending on the match.
+
+Vyper is a powerful and versatile language that can be used to create a wide variety of smart contracts. It is a good choice for developers who are looking for a more readable, efficient, and reliable alternative to Solidity.
