@@ -1,0 +1,23 @@
+Zero-knowledge rollups (ZK-rollups) are a type of Layer 2 scaling solution for Ethereum. They work by moving computation and state off-chain, while storing transaction data on-chain. This allows ZK-rollups to achieve much higher transaction throughput and lower fees than Ethereum Layer 1.
+
+Here's how ZK-rollups work in more detail:
+
+1. Users submit transactions to a ZK-rollup contract on Ethereum Layer 1.
+2. The ZK-rollup contract batches these transactions together and sends them to an off-chain sequencer.
+3. The sequencer executes the transactions and generates a zero-knowledge proof of their validity.
+4. The zero-knowledge proof is submitted back to the ZK-rollup contract on Layer 1.
+5. The ZK-rollup contract verifies the zero-knowledge proof and updates the state of the Layer 1 blockchain.
+
+ZK-rollups offer a number of advantages over other Layer 2 scaling solutions, including:
+
+* **High throughput:** ZK-rollups can process thousands of transactions per second, which is much higher than the throughput of Ethereum Layer 1.
+* **Low fees:** ZK-rollups can offer much lower fees than Ethereum Layer 1, due to the fact that computation and state are moved off-chain.
+* **Security:** ZK-rollups are fully secure, as they are ultimately backed by the Ethereum Layer 1 blockchain.
+
+ZK-rollups are one of the most promising Layer 2 scaling solutions for Ethereum. They offer a number of advantages over other Layer 2 scaling solutions, and they are already being used by a number of DeFi applications.
+
+Here are some examples of ZK-rollups:
+
+* **Loopring:** Loopring is a ZK-rollup that allows users to trade cryptocurrencies and ERC-20 tokens with low fees and high throughput.
+* **ZkSync:** ZkSync is a ZK-rollup that allows users to store and transfer ETH and ERC-20 tokens with low fees and high throughput.
+* **StarkWare:** StarkWare is a company that is developing a ZK-rollup solution for Ethereum. StarkWare's solution is still in development, but it has the potential to offer even higher throughput and lower fees than other ZK-rollups.
