@@ -1,0 +1,25 @@
+A validity proof is a type of cryptographic proof that can be used to verify the correctness of a computation. Validity proofs are typically used in blockchain networks to verify the correctness of transactions and blocks.
+
+A validity proof is created by a prover, who is someone who knows the correct answer to the computation. The prover then creates a proof that can be verified by a verifier, who is someone who does not know the correct answer. The verifier can use the proof to verify that the prover knows the correct answer, without actually knowing the answer themselves.
+
+Validity proofs are typically created using zero-knowledge proofs, which are a type of cryptographic proof that allows the prover to prove that they know something without revealing any other information. Zero-knowledge proofs are secure and efficient, making them a good choice for use in blockchain networks.
+
+Here is how a validity proof works in a blockchain network:
+
+1. A user wants to send a transaction to another user.
+2. The user creates a transaction and submits it to the network.
+3. A validator is selected to verify the transaction.
+4. The validator requests a validity proof from the user.
+5. The user creates a validity proof and sends it to the validator.
+6. The validator verifies the validity proof and approves the transaction.
+7. The transaction is added to a block and the block is added to the blockchain.
+
+Validity proofs help to ensure that transactions are valid and that the blockchain is secure. By using validity proofs, blockchain networks can achieve a high level of security without sacrificing scalability or efficiency.
+
+Here are some of the benefits of using validity proofs in blockchain networks:
+
+* **Security:** Validity proofs help to ensure that transactions are valid and that the blockchain is secure.
+* **Scalability:** Validity proofs can be used to scale blockchain networks without sacrificing security.
+* **Efficiency:** Validity proofs are efficient, meaning they do not add a significant amount of overhead to the blockchain network.
+
+Overall, validity proofs are a valuable tool that can be used to improve the security, scalability, and efficiency of blockchain networks.
