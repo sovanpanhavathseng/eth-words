@@ -1,0 +1,20 @@
+Validium is a Layer 2 scaling solution for Ethereum that uses a combination of off-chain computation and on-chain verification to achieve high throughput and low latency.
+
+Validium works by offloading computation to off-chain data availability managers (DAMs). DAMs are responsible for storing and maintaining the state of the Validium chain. When a user wants to perform a transaction on the Validium chain, they submit the transaction to a DAM. The DAM then computes the state transition for the transaction and generates a validity proof. The validity proof is then submitted to the Ethereum mainnet, where it is verified by validators.
+
+Validium offers a number of advantages over other Layer 2 scaling solutions, including:
+
+* **High throughput:** Validium can process thousands of transactions per second, making it a good choice for applications that require high throughput.
+* **Low latency:** Validium transactions are confirmed within seconds, making it a good choice for applications that require low latency.
+* **Security:** Validium is secure because all transactions are eventually verified on the Ethereum mainnet.
+
+Validium is still under development, but it has the potential to be a major scaling solution for Ethereum.
+
+Here are some of the key features of Validium:
+
+* **Off-chain computation:** Validium offloads computation to off-chain DAMs. This allows Validium to achieve high throughput and low latency.
+* **On-chain verification:** Validium transactions are eventually verified on the Ethereum mainnet. This ensures that Validium is secure.
+* **Scalability:** Validium can scale to support a large number of transactions.
+* **Efficiency:** Validium is efficient, meaning it does not add a significant amount of overhead to the Ethereum mainnet.
+
+Validium is a promising new scaling solution for Ethereum. It offers a number of advantages over other Layer 2 scaling solutions, including high throughput, low latency, security, scalability, and efficiency. Validium has the potential to be a major scaling solution for Ethereum, and it is worth keeping an eye on as it continues to develop.
