@@ -1,0 +1,19 @@
+Turing completeness is a property of a computing system that defines its ability to simulate any other computing system. A Turing-complete system can be used to solve any problem that can be solved by any other Turing-complete system.
+
+The term "Turing complete" is named after Alan Turing, a British mathematician who developed the Turing machine, a theoretical model of computation. A Turing machine is a hypothetical machine that can read and write symbols on a tape, and can move back and forth along the tape. Turing proved that any function that can be computed by a Turing machine can also be computed by any other Turing-complete system.
+
+There are many different types of systems that are Turing complete, including:
+
+* **General-purpose programming languages:** Programming languages like Python, Java, and C++ are Turing complete. This means that any program that can be written in one of these languages can also be written in any other Turing-complete language.
+* **Spreadsheet programs:** Spreadsheet programs like Microsoft Excel and Google Sheets are Turing complete. This means that any spreadsheet calculation that can be performed in one of these programs can also be performed in any other Turing-complete program.
+* **Databases:** Databases like MySQL and Oracle are Turing complete. This means that any query that can be performed on one of these databases can also be performed on any other Turing-complete database.
+
+Turing completeness is an important property for any computing system. It means that the system is capable of performing any computation that can be performed by any other Turing-complete system. This makes Turing-complete systems very versatile and powerful.
+
+Here are some examples of how Turing completeness is used in practice:
+
+* **Computer programming:** Turing completeness is essential for computer programming. Any program that can be written in a Turing-complete language can be used to solve any problem that can be solved by a computer.
+* **Computational mathematics:** Turing completeness is used in computational mathematics to solve problems such as differential equations, integrals, and optimization problems.
+* **Artificial intelligence:** Turing completeness is used in artificial intelligence to develop systems that can learn and reason like humans.
+
+Turing completeness is a powerful property that has many applications in computer science and beyond. It is a foundation for many of the systems that we use today, and it will continue to be important in the future.
