@@ -1,0 +1,21 @@
+Terminal Total Difficulty (TTD) is a specific Total Difficulty value (totalDifficulty) that marks the final block mined in Ethereum using Proof of Work (PoW). When TTD is reached or exceeded, the final block will be mined and then Proof of Stake (PoS) will take over block production.
+
+The TTD is calculated using the following formula:
+
+```
+TTD = totalDifficulty * (1 + difficultyAdjustmentFactor) ^ (numberOfBlocksToMerge)
+```
+
+where:
+
+* totalDifficulty is the total difficulty of the Ethereum blockchain up to the current block
+* difficultyAdjustmentFactor is a number that is used to adjust the difficulty of mining blocks
+* numberOfBlocksToMerge is the number of blocks that will be mined using PoW before the Merge
+
+The TTD is set by the Ethereum developers and it is not known in advance. The TTD is updated regularly as the total difficulty of the Ethereum blockchain increases.
+
+The TTD is used to ensure that the Merge happens at a specific point in time. This is important because it allows the Ethereum developers to plan for the transition from PoW to PoS.
+
+The TTD is also used to prevent miners from gaming the system. If miners knew the exact date of the Merge, they could try to mine as many blocks as possible before the Merge in order to earn more rewards. The TTD makes it more difficult for miners to game the system because they do not know when the Merge will happen.
+
+The Merge is a major event in the history of Ethereum. It will mark the transition from PoW to PoS, which will make Ethereum more secure, efficient, and scalable. The TTD is an important part of the Merge and it will help to ensure that the Merge happens smoothly and without any problems.
