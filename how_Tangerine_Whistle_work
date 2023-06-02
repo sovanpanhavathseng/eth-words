@@ -1,0 +1,15 @@
+Tangerine Whistle is a hard fork of the Ethereum blockchain that occurred on block number 2,463,000. It was implemented to change the gas calculation for certain I/O-intensive operations and to clear the accumulated state from a denial-of-service attack that exploited the low gas cost of those operations.
+
+The gas calculation changes were made to make it more expensive to perform I/O-intensive operations, such as creating new contracts and calling contract functions that read from or write to the blockchain. This was done to deter denial-of-service attacks that rely on these operations.
+
+The state clearing was done to remove the accumulated state from the denial-of-service attack. This state was causing the Ethereum blockchain to slow down and become more expensive to use.
+
+Tangerine Whistle was a successful hard fork and it has helped to make the Ethereum blockchain more secure and efficient.
+
+Here are some of the specific changes that were made in Tangerine Whistle:
+
+* The gas cost of creating a new contract was increased from 21,000 gas to 5,000,000 gas.
+* The gas cost of calling a contract function that reads from or writes to the blockchain was increased from 5,000 gas to 20,000 gas.
+* The state from before the Tangerine Whistle hard fork was cleared.
+
+These changes made it more expensive to perform I/O-intensive operations and to create new contracts. This helped to deter denial-of-service attacks and to make the Ethereum blockchain more secure and efficient.
