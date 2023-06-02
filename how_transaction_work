@@ -1,0 +1,26 @@
+A transaction is a unit of work that either succeeds or fails as a whole. In other words, either all of the changes made by the transaction are applied to the database, or none of them are. This ensures that the database remains consistent at all times.
+
+Transactions are implemented using the ACID properties:
+
+* **Atomicity:** A transaction is either completely applied or completely rolled back. There is no middle ground.
+* **Consistency:** Once a transaction is committed, the database must be in a consistent state. This means that all of the data must be valid and make sense.
+* **Isolation:** Transactions should not interfere with each other. This means that each transaction should see a consistent view of the database, even if other transactions are still running.
+* **Durability:** Once a transaction is committed, the changes made by the transaction must be permanent. This means that they should not be lost even if the system crashes.
+
+Transactions are used in a wide variety of applications, including:
+
+* Banking: Transactions are used to transfer money between accounts, process payments, and make investments.
+* Ecommerce: Transactions are used to purchase goods and services online.
+* Supply chain management: Transactions are used to track the movement of goods and materials through the supply chain.
+* Healthcare: Transactions are used to record patient data, manage medical records, and process insurance claims.
+
+Transactions are an essential part of modern computing. They provide a way to ensure that data is processed reliably and consistently.
+
+Here are some examples of how transactions work in different contexts:
+
+* **Banking:** When you make a bank transfer, your bank initiates a transaction to debit your account and credit the recipient's account. The transaction is either completed successfully or rolled back if there is an error.
+* **Ecommerce:** When you purchase an item from an online retailer, the retailer initiates a transaction to charge your credit card and create a new order record. The transaction is either completed successfully or rolled back if the credit card is declined or the order is out of stock.
+* **Supply chain management:** When a manufacturer ships a product to a retailer, the manufacturer initiates a transaction to update the inventory records for both companies. The transaction is either completed successfully or rolled back if the product is damaged or lost in transit.
+* **Healthcare:** When a doctor orders a test for a patient, the doctor's office initiates a transaction to request the test from a laboratory. The transaction is either completed successfully or rolled back if the laboratory is unable to perform the test.
+
+Transactions are a critical part of modern computing. They provide a way to ensure that data is processed reliably and consistently.
