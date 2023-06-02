@@ -1,0 +1,15 @@
+A sync committee is a group of 512 validators that are randomly selected every epoch (about 27 hours). The purpose of the sync committee is to allow light clients to keep track of the chain of beacon block headers. Light clients are a type of Ethereum client that does not download the entire blockchain, but instead relies on other nodes to provide them with the information they need.
+
+When a sync committee is formed, each validator in the committee is assigned a set of beacon block headers that they are responsible for signing. The validators in the committee then sign these block headers at each slot (about 12 seconds). Light clients can use these signatures to verify the authenticity of the block headers, and to ensure that they are part of the canonical chain.
+
+Sync committee members are rewarded for their participation with higher rewards than regular validators. This is to incentivize validators to participate in the sync committee, and to ensure that the network has enough validators to keep the sync committee running smoothly.
+
+Here are the steps on how a sync committee works:
+
+1. Every epoch, the beacon chain randomly selects 512 validators to form a sync committee.
+2. Each validator in the sync committee is assigned a set of beacon block headers to sign.
+3. At each slot, the validators in the sync committee sign the assigned block headers.
+4. Light clients can use the signatures from the sync committee to verify the authenticity of the block headers.
+5. Validators in the sync committee are rewarded with higher rewards than regular validators.
+
+Sync committees are an important part of the Ethereum network. They allow light clients to keep track of the chain of beacon block headers, which is essential for them to be able to participate in the network.
